@@ -1,0 +1,58 @@
+// main: ../default.scss
+.l-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  min-width: 1300px;
+  @include flex();
+  z-index: 1001;
+  transition: .5s;
+  &__bg {
+    background: $dark;
+  }
+  &-logo {
+    width: 231px;
+    margin: 28px 0 28px 37px;
+  }
+  @include mq(sp) {
+    top: 20px;
+    left: 5%;
+    background: inherit;
+    width: 170px;
+    min-width: inherit;
+    height: auto;
+    &-logo {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  &-nav {
+    @include flex();
+    margin-left: auto;
+    &--item {
+      padding: 38px 20px;
+      color: #fff;
+      &:hover {
+        color: $green;
+      }
+      &:hover span {
+        padding: 0 0 6px;
+        border-bottom: 2px solid $green;
+      }
+    }
+    @include mq(sp) {
+      display: none;
+    }
+  }
+  &-contact {
+    background: $light_green;
+    width: 30px;
+    padding: 38px 35px;
+    margin-left: 20px;
+    @include mq(sp) {
+      display: none;
+    }
+  }
+}

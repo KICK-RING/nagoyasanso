@@ -1,0 +1,592 @@
+// main: ../../default.scss
+.company-c-page {
+  margin: 100px 0 0;
+  &-visual {
+    margin: 0 0 60px;
+    @include mq(sp) {
+        margin: 0 0 0px;
+    }
+  }
+  &-container {
+    width: $container;
+    margin: 0 auto;
+    @include flex();
+    @include mq(sp) {
+        width: auto;
+        display: block;
+    }
+  }
+  &-ttl {
+    background:#fff;
+    padding: 50px 90px;
+    text-align: center;
+    box-shadow: 0 0 30px #afafaf;
+    margin: -94px 0 0;
+    @include mq(sp) {
+        margin: -94px 3% 30px;
+        position: relative;
+    }
+    &__long {
+      padding: 40px 10px;
+    }
+    &__main {
+      font-size: 3.5rem;
+      letter-spacing: 4px;
+    }
+    &__sub {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #808080;
+      letter-spacing: 4px;
+    }
+  }
+  &-breadcrumbs {
+    margin: 10px 0 0 auto;
+    font-size: 1.4rem;
+    color: #c2c2c2;
+    &__arrow {
+      margin: 0 10px;
+    }
+    a {
+      color: #c2c2c2;
+    }
+  }
+}
+
+.p-company {
+  padding: 56px 0 0;
+  &-ttl {
+    font-size: 7.2rem;
+    letter-spacing: 14px;
+    width: fit-content;
+    position: relative;
+    line-height: 1.3;
+    @include mq(sp) {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 4rem;
+      }
+    &:after {
+      position: absolute;
+      bottom: -7px;
+      right: -50px;
+      content: url('../images/company_subttl.png');
+    }
+  }
+  &-wrap {
+    position: relative;
+    &__bg {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 55%;
+    height: 560px;
+    z-index: -1;
+    background:url('../images/company_greeting01.jpg') no-repeat;
+    @include mq(sp) {
+        width: 100%;
+        top: 185px;
+        background-size: cover;
+        height: 50%;
+        }
+    }
+  }
+  &-conts {
+    margin: 0 0 200px;
+    @include flex();
+    @include mq(sp) {
+        display: block;
+        margin: 0;
+      }
+  }
+  &-cont {
+    width: 530px;
+    @include mq(sp) {
+        width: auto;
+      }
+    &--subttl {
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: $brown;
+      line-height: 2;
+      margin: 46px 0 0;
+    @include mq(sp) {
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+    }
+    &--desc {
+      width: 494px;
+      background: #fff;
+      padding: 46px 36px 46px 0;
+      line-height: 2.4;
+      font-weight: 300;
+      letter-spacing: -1px;
+      @include mq(sp) {
+          margin-top: 140%;
+          width: 100%;
+          margin-top: 75%;
+        width: auto;
+        padding: 30px;
+        margin-left: 3%;
+        margin-right: 3%;
+      }
+    }
+  }
+
+  &-copy {
+    position: relative;
+    height: 1150px;
+    &--bg {
+        background-image: url('../images/company_copy_bg.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 500px;
+        position: absolute;
+        width: 100%;
+    }
+    &--wrap {
+        margin: 0 auto;
+        width: fit-content;
+        position: relative;
+        text-align: center;
+        padding-top: 110px;
+    }
+    
+    > .l-container {
+        position: relative
+    }
+    &--ttl {
+        font-size: 3.5rem; 
+        color: #fff; 
+        letter-spacing: 4px;
+        position: relative;
+        &:after {
+            position: absolute;
+            top: -23px;
+            right: 32px;
+            content: url(../images/company_copyttl.png);
+        }
+    }
+    &--text {
+        font-size: 1.8rem; 
+        color: #fff; 
+        letter-spacing: 4px;
+    }
+    &--conts {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 1020px;
+        height: 900px;
+        z-index: 2;
+        margin-top: 60px;
+        background: #fff;
+        @include mq(sp) {
+            width: auto;
+            height: auto;
+            left: 0px;
+        }
+        &__img {
+        @include mq(sp) {
+            position: absolute;
+            top: 230px;
+            left: 25%;
+        }   
+        }
+        &__txt {
+            font-size: 24px;
+            position: absolute;
+            left: 530px;
+            height: 400px;
+            top: 135px;
+            @include mq(sp) {
+                position: relative;
+                left: 0;
+                text-align: center;
+                height: auto;
+            }
+        }
+        &__img {
+            img {
+                margin-top: 60px;
+                width: auto;
+                @include mq(sp) {
+                    margin-left: -30%;
+                }
+            }
+        }
+        &__inner {
+            margin-top: 100px;
+            margin-left: 160px;
+            @include mq(sp) {
+                margin-top: 580px;
+            }
+            &__line {
+                display: block;
+                @include mq(sp) {
+                    display: none;
+                }
+            }
+            &__list {
+                display: flex;
+                margin-bottom: 50px;
+                &__img {
+                    width: 65px;
+                        @include mq(sp) {
+                            width: 28%;
+                        }
+                }
+                &__txt {
+                    width: auto;
+                    margin-left: 25px;
+                    &__title {
+                        font-size: 21px;
+                    }
+                    &__conts {
+                        font-size: 16px;
+                        margin-top: 10px;
+                        @include mq(sp) {
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }//p-copy
+  &-overview {
+      margin: 20px 0 0;
+      @include mq(sp) {
+          margin-top: 80%;
+      }
+      &--visual {
+        position: relative;
+      }
+      &--ttl {
+        position: absolute;
+        left: 0;
+        bottom: -64px;
+        width: 210px;
+        background: #162c15;
+        padding: 44px 0 54px 190px;
+        @include mq(sp) {
+            position: relative;
+            width: 50%;
+            background: #162c15;
+            padding: 74px 10px 84px 10px;
+        }
+        &__img {
+            width: 104px;
+          }
+        &__main {
+            color: #fff;
+            font-size: 3.6rem;
+            letter-spacing: 4px;
+            &:after {
+                position: absolute;
+                top: 10px;
+                right: 108px;
+                content: url(../images/company_overview_ttl.png);
+                @include mq(sp) {
+                    left: 10px;
+                    top: 30px;
+                }
+            }
+        }
+      }
+      &--subttl {
+          color: #bbdaae;
+          font-size: 21px;
+          font-weight: normal;
+      }
+      &--wrap {
+        adding: 130px 0 120px;
+        background: #f3f4f1;
+          padding-top: 140px;
+          padding-bottom: 140px;
+        >div {
+            display: flex;
+            background: #fff;
+            padding: 80px 70px 0px 70px;
+            @include mq(sp) {
+                display: block;
+                padding: 80px 70px 80px 70px;
+            }
+        }
+        dl {
+            display: flex;
+            margin: 40px 0 40px 0;
+            position: relative;
+            @include mq(sp) {
+                display: block;
+            }
+            &:after {
+              position: absolute;
+              top: -37px;
+              content: url('../images/company_overview_line.jpg');
+            }
+            dt {
+                width: 23%;
+                @include mq(sp) {
+                    width: auto;
+                }
+            }
+            dd {
+                width: 66%;
+                @include mq(sp) {
+                    width: auto;
+                }
+            }
+        }
+        &__inner {
+            width: 49%;
+            @include mq(sp) {
+                width: 100%;
+            }
+        }
+      }
+  }//p-overview
+  &-history {
+    background: $dark_green;
+    padding: 60px 0 80px;
+    height: 2900px;
+    &--ttl {
+      color: #fff;
+      font-size: 3.6rem;
+      width: fit-content;
+      margin: 0 auto;
+      letter-spacing: 6px;
+      position: relative;
+      &:before {
+        content: url('../images/company_hisotrytl.png');
+        position: absolute;
+        top: -27px;
+        left: 26px;
+      }
+    }
+    &--subttl {
+      color: #678465;
+      font-size: 2.1rem;
+      letter-spacing: 4px;
+      margin: 10px 0 0;
+      text-align: center;
+    
+    }
+    &--wrap {
+      width: 1020px;
+      margin: 80px auto 0;
+      position: relative;
+      padding-top: 20px;
+      background-image: url('../images/company_history_bg.png');
+      background-size: cover;
+      background-position: 50% 50%;
+      height: 2360px;
+        @include mq(sp) {
+            width: auto;
+            background-image: url('../images/sp/company_history_bg.png');
+            background-size: auto;
+            background-position: 16% 50%;
+            background-repeat: no-repeat;
+            height: 2566px;
+            padding-top: 1px;
+        }
+        >div {
+            
+        }
+    }
+    &--centerline {
+      position: absolute;
+      top: -20px;
+      left: 290px;
+      width: 20px;
+      background: #0a190a;
+      &__01 {
+        height: 950px;
+      }
+      &__02 {
+        height: 1020px;
+      }
+      &__03 {
+        height: 1290px;
+      }
+      &__04 {
+        height: 1220px;
+      }
+    }
+    &--conts {
+      &__left {
+        width: 310px;
+        margin: 0 0 0px 174px;
+        position: relative;
+        z-index: 2;
+        @include mq(sp) {
+        margin-bottom:22px;
+        }
+      }
+      &__right {
+        width: 310px;
+        margin: 0px 0 0px 752px;
+        position: relative;
+        z-index: 2;
+        .p-staff-schedule--conts--time {
+          margin: 0 0 0 50px;
+        }
+        .p-staff-schedule--conts--work {
+          margin: 8px 0 0 50px;
+        }
+        @include mq(sp) {
+        margin: 0px 0 0px 175px;
+            margin-bottom:22px;
+        }
+      }
+      &--time {
+        font-size: 2.1rem;
+        color: #b1d4a3;
+        font-weight: 600;
+        letter-spacing: 6px;
+        margin: 0 0 0 30px;
+      }
+      &--work {
+        color: #fff;
+        font-weight: 300;
+        line-height: 1.8;
+        margin: 9px 0 0 30px;
+        height: 56px;
+      }
+    }
+  }//p-history
+  &-office {
+      margin: 20px 0 0;
+      background: #F3F4F1;
+      &--visual {
+        position: relative;
+      }
+      &--ttl {
+        position: absolute;
+        left: 0;
+        bottom: -64px;
+        width: 210px;
+        background: #fff;
+        padding: 44px 0 54px 190px;
+        >div:last-child {
+              color: #678465;
+          }
+        @include mq(sp) {
+            position: relative;
+            width: 50%;
+            padding: 74px 10px 84px 10px;
+        position: relative;
+        }
+        &__img {
+            width: 104px;
+          }
+        &__main {
+            color: #162C15;
+            font-size: 3.6rem;
+            letter-spacing: 4px;
+            &:after {
+                position: absolute;
+                top: 10px;
+                right: 169px;
+                content: url(../images/company_office_ttl.png);
+                @include mq(sp) {
+                    left: 10px;
+                    top: 30px;
+                }
+            }
+        }
+      }
+      &--subttl {
+          font-size: 21px;
+//          padding-top: 165px;
+          margin-bottom: 60px;
+          position: relative;
+          text-align: left;
+          @include mq(sp) {
+              text-align: left;
+          }
+          &:after {
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            content: url('../images/company_office_line.jpg');
+          }
+      }
+        &--inner {
+            &.l-container {
+                padding-top:  150px;
+                @include mq(sp) {
+                    margin-left: 3%;
+                    margin-right: 3%;
+                }
+            }
+          &__wrap {
+            background: #f3f4f1;
+            display: flex;
+            @include mq(sp) {
+                display: block;
+            }
+            &__block {
+                width: 32%;
+                margin-right: 3%;
+                margin-bottom: 70px;
+                @include mq(sp) {
+                    width: 100%;
+                }
+                &:last-child {
+                    padding-bottom: 8%;   
+                }
+                &.right {
+                    margin-right: 0%;
+                }
+                figure {
+                    margin-bottom: 15px;
+                }
+                span {
+                    background: #162C15;
+                    color: #fff;
+                    line-height: 33px;
+                    font-size: 18px;
+                    padding: 0px 15px 0px 15px;
+                }
+                p {
+                    margin-top: 15px;
+                }
+            }
+          }
+      }
+  }//p-office
+  &-download {
+    color: #162C15;
+    text-align: center;
+    background: #F3F4F1;
+      > div {
+        background: #fff;
+        padding: 50px 0px;
+        @include mq(sp) {
+            padding-top: 0;
+        }
+      }
+      &--txt {
+          margin-bottom: 25px;
+          font-size: 21px;
+      }
+      &--btn {
+          div {
+              font-size: 16px;
+              border: 1px solid #162C15;
+              display: inline-block;
+              width: 305px;
+              padding: 20px 0 20px 0;
+              position: relative;
+              &:after {
+                position: absolute;
+                left: 33px;
+                bottom: 16px;
+                content: url('../images/company_download.png');
+              }
+          }
+      }
+  }
+} //p-company

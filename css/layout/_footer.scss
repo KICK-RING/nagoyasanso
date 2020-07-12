@@ -1,0 +1,146 @@
+// main: ../default.scss
+.l-footer {
+  &-wrap {
+    background: #151815;
+    padding: 80px 0 0;
+    @include mq(sp) {
+      padding: 60px 0 0;
+    }
+  }
+  &-conts {
+    padding: 0 0 50px;
+    @include container();
+    @include flex();
+    @include mq(sp) {
+      width: 90%;
+      padding: 0 0 80px;
+    }
+    &--company {
+      color: #fff;
+      width: 260px;
+      margin:0 140px 0 0;
+      @include mq(sp) {
+        width: 100%;
+        margin: 0;
+      }
+    }
+    @include mq(sp) {
+      &--logo {
+        width: 260px;
+      }
+    }
+    &--prof {
+      &__name {
+        margin: 20px 0 10px;
+        font-family: $serif;
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+      &__addr {
+        line-height: 1.8;
+      }
+    }
+    &--group {
+      border: 1px solid $green_tea;
+      width: 204px;
+      font-size: 1.4rem;
+      padding: 18px;
+      margin: 24px 0 0;
+      @include mq(sp) {
+        margin: 24px 0 60px;
+      }
+      &__ttl {
+        width: 130px;
+        font-weight: bold;
+        border-bottom: 1px solid #fff;
+        padding: 0 0 4px;
+      }
+      &__name {
+        font-weight: bold;
+        margin: 10px 0 0;
+        position: relative;
+        &:after {
+          position: absolute;
+          top: -5px;
+          right: 3px;
+          content: url('../images/footer_group_arrow.png');
+        }
+      }
+    }
+    &--nav {
+      width: 210px;
+      font-size: 1.4rem;
+      li {
+        margin: 18px 0 0;
+      }
+      a {
+        color: #fff;
+      }
+      &__last {
+        width: 240px;
+      }
+      &__child {
+        margin: 6px 0 0!important;
+      }
+      @include mq(sp) {
+        width: 100%;
+        @include flex();
+        ul {
+          width: 50%;
+        }
+        li {
+          width: 100%;
+        }
+        &__sp,
+        &__last {
+          width: 50%;
+          margin: 12px 0 0;
+          ul,
+          li {
+            width: 100%;
+          }
+        }
+      }
+    }
+  } //.l-footer-conts
+  &-copyright {
+    border-top: 1px solid $copyright_green;
+    padding: 30px 0;
+    color: $copyright_green;
+    font-size: 1.2rem;
+    @include mq(sp) {
+      padding: 20px 0;
+    }
+    &--wrap {
+      @include container();
+      @include flex();
+      @include mq(sp) {
+        width: 90%;
+      }
+      &__text {
+        color: $copyright_green;
+        margin: 0 0 0 7px;
+        vertical-align: middle;
+      }
+    }
+    &--contact {
+      margin: 0 24px 0 0;
+      img {
+        width: 20px;
+        vertical-align: middle;
+      }
+    }
+    &--privacy {
+      img {
+        width: 20px;
+      }
+    }
+    &--copy {
+      margin: 0 0 0 auto;
+      @include mq(sp) {
+        margin: 10px 0 0;
+        display: block;
+      }
+    }
+  }
+} //.l-footer

@@ -1,0 +1,6 @@
+// main: ../default.scss
+@media all and (min-width: $mediaM-) {
+  .l-container {
+    @include container();
+  }
+}

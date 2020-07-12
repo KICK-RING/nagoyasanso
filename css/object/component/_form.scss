@@ -1,0 +1,119 @@
+// main: ../../default.scss
+.c-form {
+  width: 860px;
+  @include mq(sp) {
+    width: 100%;
+  }
+  &-tr {
+    margin: 0 0 40px;
+    @include flex();
+    &__yubin {
+      margin: 0;
+    }
+  }
+  &-must,
+  &-any {
+    width: 50px;
+    font-size: 1.3rem;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    padding: 1px 0 2px;
+    margin: 3px 20px 0 0;
+  }
+  &-any {
+    background: #c2c2c2;
+  }
+  &-th {
+    width: 690px;
+    font-weight: 400;
+    @include mq(sp) {
+      width: calc(100% - 70px);
+    }
+  }
+  &-field {
+    width: 100%;
+    margin: 20px 0 0;
+    input,
+    textarea,
+    select {
+      border: none;
+      background: $gray;
+      width: calc(100% - 20px);
+      font-size: 1.6rem;
+      padding: 12px 10px;
+    }
+    select {
+      width: 100%;
+      font-size: 1.5rem;
+    }
+  }
+  &-yubin {
+    width: 550px;
+    input {
+      width: 200px;
+    }
+    &--icon {
+      margin: 0 20px 0 0;
+    }
+    &--note {
+      color: $dark;
+      margin: 0 0 0 30px;
+      font-weight: 300;
+    }
+    @include mq(sp) {
+      width: 100%;
+    }
+  }
+  &-privacypolicy {
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    input {
+      width: 14px;
+    }
+    a {
+      font-weight: 300;
+    }
+    .error {
+      display: inline!important;
+    }
+  }
+  &-btn {
+    width: inherit;
+    margin: 0 auto;
+    input {
+      background: inherit;
+      border: none;
+      color: #fff;
+      padding: 18px 50px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.mwform-checkbox-field-text {
+  display: none;
+}
+
+.p-check-back {
+  margin: 0 auto;
+  input {
+    border: none;
+    padding: 16px 18px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield; 
+}

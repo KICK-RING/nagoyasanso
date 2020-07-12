@@ -1,0 +1,84 @@
+// main: ../../default.scss
+.p-message {
+  position: relative;
+  @include container();
+  @include mq(sp) {
+    width: 100%;
+    position: inherit;
+  }
+  &-visual {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    width: 606px;
+    z-index: -1;
+    @include mq(sp) {
+      position: inherit;
+      top: 0;
+      width: 100%;
+      z-index: 0;
+    }
+  }
+  &-wrap {
+    margin: 0 0 200px;
+    @include mq(sp) {
+      margin: 0 0 100px;
+      &--head {
+        width: 90%;
+        margin: 0 auto 50px;
+      }
+    }
+    &--ttl {
+      font-size: 7.2rem;
+      letter-spacing: 14px;
+      color: $dark_green;
+      width: fit-content;
+      position: relative;
+      &:after {
+        position: absolute;
+        bottom: -25px;
+        right: -6px;
+        content: url('../images/message_subttl.png');
+      }
+      @include mq(sp) {
+        font-size: 5rem;
+        letter-spacing: 8px;
+      }
+    }
+    &--subttl {
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: $brown;
+      line-height: 2;
+      margin: 46px 0 0;
+      @include mq(sp) {
+        font-size: 1.8rem;
+        margin: 26px 0 0;
+      }
+    }
+    &--desc {
+      width: 494px;
+      background: #fff;
+      padding: 46px 36px 0 0;
+      line-height: 2.4;
+      font-weight: 300;
+      letter-spacing: -1px;
+      &__name {
+        text-align: right;
+        font-size: 2rem;
+        margin: 128px 0 0;
+      }
+      @include mq(sp) {
+        width: calc(90% - 60px);
+        padding: 30px;
+        margin: -30px auto 0;
+        position: relative;
+        z-index: 2;
+        letter-spacing: 0;
+        &__name {
+          margin: 40px 0 0;
+        }
+      }
+    }
+  }
+} //.p-message

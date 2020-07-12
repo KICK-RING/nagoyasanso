@@ -1,0 +1,32 @@
+// main: ../default.scss
+.u-arrow {
+  position: relative;
+  color: #000;
+  vertical-align: middle;
+  margin: 0 0 0 15px;
+  transition: .3s;
+  &:before,
+  &:after {
+    position: absolute;
+    top: 7px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    content: "";
+    vertical-align: middle;
+  }
+  &:before {
+    left: 4px;
+    width: 20px;
+    height: 1px;
+    background: #000;
+  }
+  &:after {
+    left: 14px;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #000;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}

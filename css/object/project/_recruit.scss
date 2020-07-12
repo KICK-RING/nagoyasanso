@@ -1,0 +1,207 @@
+// main: ../../default.scss
+.p-recruit {
+  position: relative;
+  @include container();
+  @include mq(sp) {
+    position: inherit;
+    width: 100%;
+  }
+  &-visual {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 600px;
+    z-index: -1;
+    @include mq(sp) {
+      position: inherit;
+      width: 100%;
+      z-index: 0;
+    }
+  }
+  &-wrap {
+    margin: 0 0 160px;
+    &--ttl {
+      width: 422px;
+    }
+    &--subttl {
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: $brown;
+      line-height: 2;
+      margin: 55px 0 0;
+      letter-spacing: 4.5px;
+    }
+    &--desc {
+      width: 510px;
+      background: #fff;
+      padding: 46px 28px 100px 0;
+      line-height: 2.4;
+      font-weight: 300;
+    }
+    @include mq(sp) {
+      margin: 0 0 20px;
+      &--ttl {
+        width: 76%;
+        max-width: 318px;
+        margin: 0 0 0 5%;
+      }
+      &--subttl {
+        font-size: 1.8rem;
+        margin: 30px 0 30px 5%;
+      }
+      &--desc {
+        width: calc(90% - 60px);
+        margin: -30px auto 0;
+        padding: 20px 30px;
+        position: relative;
+        z-index: 2;
+      }
+    }
+  }
+
+  &-catch {
+    min-width: 1060px;
+    @include mq(sp) {
+      min-width: inherit;
+    }
+  }
+
+  &-staff {
+    background: $gray;
+    padding: 0 0 120px;
+    &--ttl {
+      width: 210px;
+      background: $dark_green;
+      padding: 44px 0 54px 190px;
+      margin: -100px 0 0;
+      position: relative;
+      z-index: 2;
+      &__img {
+        width: 96px;
+      }
+      &__main {
+        color: #fff;
+        font-size: 3.6rem;
+        letter-spacing: 6px;
+      }
+      &__sub {
+        color: $green_tea;
+        font-size: 2.1rem;
+      }
+      @include mq(sp) {
+        width: 180px;
+        padding: 40px 0 50px 20px;
+      }
+    }
+    &--wrap {
+      width: $container;
+      padding: 40px 30px;
+      margin: 100px auto 0;
+      background: #fff;
+      box-shadow: 30px 30px $beige;
+      @include flex();
+      @include mq(sp) {
+        width: 95%;
+        padding: 40px 0;
+        margin: 60px 0 0 5%;
+        display: inherit;
+      }
+    }
+    &--conts {
+      width: 250px;
+      margin: 0 20px 0 0;
+      &:nth-child(4) {
+        margin: 0;
+      }
+      &-belongs {
+        font-size: 1.2rem;
+        color: #fff;
+        background: $green;
+        text-align: center;
+        width: fit-content;
+        padding: 2px 4px;
+        margin: 20px 0 0;
+      }
+      &-name {
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin: 0 0 30px;
+      }
+      &-more {
+        a:hover .u-arrow {
+          margin: 0 0 0 20px;
+        }
+      }
+      @include mq(sp) {
+        width: 86%;
+        max-width: 500px;
+        margin: 0 auto 40px;
+        &:nth-child(4) {
+          margin: 0 auto;
+        }
+        &-name {
+          margin: 0 0 16px;
+        }
+      }
+    } //.p-recruit-staff--conts
+  } //.p-recruit-staff
+
+  &-list {
+    background: $dark_green;
+    padding: 100px 0 160px;
+    @include mq(sp) {
+      padding: 50px 0 90px;
+    }
+    &--ttl {
+      color: #fff;
+      font-size: 3.6rem;
+      letter-spacing: 8px;
+      text-align: center;
+    }
+    &--sub {
+      color: $border_green;
+      font-size: 2.1rem;
+      font-weight: 500;
+      text-align: center;
+      margin: 10px 0 0;
+    }
+    &--wrap {
+      width: $container;
+      margin: 100px auto 0;
+      @include flex();
+      @include mq(sp) {
+        width: 80%;
+        margin: 60px auto 0;
+        display: inherit;
+      }
+    }
+    &--conts {
+      width: 300px;
+      margin: 40px 80px 0 0;
+      border-bottom: 2px solid $border_green;
+      padding: 0 0 30px;
+      display: table;
+      table-layout: fixed;
+      &:nth-child(3n) {
+        margin: 40px 0 0;
+      }
+      &-ttl {
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: 500;
+        @include tableCell();
+      }
+      &-arrow {
+        width: 45px;
+        margin: 0 0 0 auto;
+        img {
+          width: inherit;
+        }
+      }
+      @include mq(sp) {
+        width: 100%;
+        margin: 40px 0 0;
+      }
+    }
+  }
+}

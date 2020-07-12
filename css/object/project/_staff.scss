@@ -1,0 +1,321 @@
+// main: ../../default.scss
+.p-staff {
+  &-wrap {
+    position: relative;
+    @include container();
+    @include mq(sp) {
+      width: 100%;
+    }
+    &--conts {
+
+    }
+    &--ttl {
+      width: fit-content;
+      font-size: 7.2rem;
+      color: $dark_green;
+      letter-spacing: 12px;
+      position: relative;
+      &:after {
+        content: url('../images/introduce.png');
+        position: absolute;
+        bottom: -16px;
+        right: -23px;
+      }
+      @include mq(sp) {
+        font-size: 5.2rem;
+        letter-spacing: 6px;
+        margin: 0 0 0 5%;
+      }
+    }
+    &--copy {
+      font-size: 2.4rem;
+      color: $brown;
+      margin: 20px 0 0;
+      font-weight: 500;
+      letter-spacing: 2px;
+      @include mq(sp) {
+        margin: 20px 0 30px 5%;
+      }
+    }
+    &--prof {
+      width: 560px;
+      background: #fff;
+      padding: 50px 0;
+      margin: 0 0 260px;
+      &__belongs {
+        font-size: 1.2rem;
+        color: #fff;
+        background: $green;
+        text-align: center;
+        width: fit-content;
+        padding: 2px 4px;
+      }
+      &__name {
+        font-size: 2.4rem;
+        color: $brown;
+        font-weight: 600;
+        margin: 20px 0 30px;
+      }
+      &__desc {
+        line-height: 2.2;
+      }
+      @include mq(sp) {
+        width: calc(90% - 60px);
+        padding: 20px 30px;
+        margin: -30px auto 0;
+        position: relative;
+        z-index: 2;
+        &__name {
+          margin: 10px 0 20px;
+        }
+      }
+    }
+    &--img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 600px;
+      z-index: -1;
+      @include mq(sp) {
+        position: inherit;
+        width: 100%;
+        z-index: 0;
+      }
+    }
+  }
+
+  &-faq {
+    background: $gray;
+    padding: 80px 0 140px;
+    @include mq(sp) {
+      padding: 80px 0;
+    }
+    &--wrap {
+      display: table;
+      table-layout: fixed;
+      @include mq(sp) {
+        display: inherit;
+        margin: 0 0 140px;
+      }
+    }
+    &--img {
+      @include tableCell();
+      width: 40%;
+      @include mq(sp) {
+        display: none;
+      }
+    }
+    &--conts {
+      background: #fff;
+      box-shadow: 30px 30px $beige;
+      width: 544px;
+      padding: 50px 50px 1px;
+      @include mq(sp) {
+        width: calc(95% - 40px);
+        margin: -80px 0 0 5%;
+        position: relative;
+        z-index: 2;
+        padding: 50px 20px 1px;
+      }
+      &__ttl {
+        display: table;
+        table-layout: fixed;
+        border-bottom: 1px solid $green;
+        padding: 0 0 16px;
+        @include mq(sp) {
+          display: inherit;
+        }
+      }
+      &__icon {
+        width: 43px;
+        position: relative;
+        @include tableCell();
+        &:before {
+          content: url('../images/question.png');
+          position: absolute;
+          top: -24px;
+          left: -16px;
+        }
+        img {
+          width: inherit;
+        }
+        @include mq(sp) {
+          display: inherit;
+          margin: 0 auto;
+        }
+      }
+      &__question {
+        font-size: 1.8rem;
+        color: $green;
+        font-weight: 500;
+        padding: 0 0 0 20px;
+        line-height: 1.9;
+        @include tableCell();
+        @include mq(sp) {
+          padding: 0;
+          display: inherit;
+          margin: 20px 0 0;
+        }
+      }
+      &__answer {
+        margin: 20px 0 60px;
+        font-weight: 300;
+        line-height: 2.2;
+      }
+    }
+    &--wrap__even {
+      display: table;
+      table-layout: fixed;
+      .p-staff-faq--conts {
+        margin: 140px 30px 0 auto;
+      }
+      @include mq(sp) {
+        display: inherit;
+        .p-staff-faq--conts {
+          margin: -80px 0 0 5%;
+        }
+      }
+    }
+  } //.p-staff-faq
+
+  &-schedule {
+    background: $dark_green;
+    padding: 60px 0 80px;
+    @include mq(sp) {
+      padding: 60px 0 40px;
+    }
+    &--ttl {
+      color: #fff;
+      font-size: 3.6rem;
+      width: fit-content;
+      margin: 0 auto;
+      letter-spacing: 6px;
+      position: relative;
+      &:before {
+        content: url('../images/work.png');
+        position: absolute;
+        top: -32px;
+        left: 63px;
+      }
+    }
+    &--subttl {
+      color: #fff;
+      font-size: 2.1rem;
+      text-align: center;
+      letter-spacing: 4px;
+      font-weight: 600;
+      margin: 10px 0 0;
+      @include mq(sp) {
+        margin: 0;
+      }
+    }
+    &--wrap {
+      width: 600px;
+      margin: 80px auto 0;
+      position: relative;
+      @include mq(sp) {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    &--centerline {
+      position: absolute;
+      top: -20px;
+      left: 290px;
+      width: 20px;
+      background: #0a190a;
+      &__01 {
+        height: 950px;
+      }
+      &__02 {
+        height: 1020px;
+      }
+      &__03 {
+        height: 1290px;
+      }
+      &__04 {
+        height: 1220px;
+      }
+      @include mq(sp) {
+        top: -154px;
+        left: 0;
+        &__01 {
+          height: 1140px;
+        }
+        &__02 {
+          height: 1220px;
+        }
+        &__03 {
+          height: 1510px;
+        }
+        &__04 {
+          height: 1430px;
+        }
+      }
+    }
+    &--conts {
+      &__left {
+        width: 310px;
+        margin: 0 0 30px;
+        position: relative;
+        z-index: 2;
+        @include mq(sp) {
+          width: 100%;
+          margin: 50px 0;
+        }
+      }
+      &__right {
+        width: 310px;
+        margin: 0 0 30px 290px;
+        position: relative;
+        z-index: 2;
+        .p-staff-schedule--conts--time {
+          margin: 0 0 0 50px;
+        }
+        .p-staff-schedule--conts--work {
+          margin: 8px 0 0 50px;
+          @include mq(sp) {
+            margin: 0 0 0 50px;
+          }
+        }
+        @include mq(sp) {
+          width: 100%;
+          margin: 50px 0;
+        }
+      }
+      &--time {
+        font-size: 2.1rem;
+        color: #b1d4a3;
+        font-weight: 600;
+        letter-spacing: 6px;
+        margin: 0 0 0 30px;
+        @include mq(sp) {
+          margin: 0 0 0 50px;
+        }
+      }
+      &--work {
+        color: #fff;
+        font-weight: 300;
+        line-height: 1.8;
+        margin: 8px 0 0 30px;
+        @include mq(sp) {
+          margin: 0 0 0 50px;
+        }
+      }
+      @include mq(sp) {
+        &--border {
+          img {
+            width: inherit;
+          }
+        }
+      }
+    }
+  }
+  &-btn {
+    margin-top: 0;
+    &__bg {
+      background: $gray;
+      padding: 90px 0 20px;
+    }
+  }
+} //.p-staff

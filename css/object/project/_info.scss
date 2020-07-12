@@ -1,0 +1,117 @@
+// main: ../../default.scss
+.p-info {
+  background: $gray;
+  padding: 100px 0;
+  @include mq(sp) {
+    padding: 80px 0 100px;
+  }
+  &-ttl {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 3.6rem;
+    letter-spacing: 7px;
+    color: $dark_green;
+    position: relative;
+    &:before {
+      content: url('../images/indust_ttl.png');
+      position: absolute;
+      top: -41px;
+      left: 120px;
+    }
+    @include mq(sp) {
+      text-align: center;
+      &:before {
+        left: 78px;
+      }
+    }
+  }
+  &-subttl {
+    font-size: 2.1rem;
+    color: #384238;
+    font-weight: 500;
+    text-align: center;
+  }
+  &-wrap {
+    margin: 80px 0 0;
+    background: #fff;
+    box-shadow: 30px 30px $beige;
+    padding: 90px 180px 80px;
+    @include mq(sp) {
+      width: 95%;
+      margin: 40px 0 0 5%;
+      padding: 20px 0 40px;
+    }
+  }
+  &-conts {
+    border-bottom: 1px solid #b1d4a3;
+    padding: 0 0 24px;
+    margin: 34px 0 0;
+    &--head {
+      @include flex();
+    }
+    &--data {
+      font-size: 1.8rem;
+      color: #a8b788;
+    }
+    &--cat {
+      width: fit-content;
+      color: #fff;
+      padding: 3px 8px 0;
+      margin: 0 0 0 20px;
+      font-size: 1.2rem;
+    }
+    &--ttl {
+      font-size: 1.8rem;
+      margin: 8px 0 0;
+      font-weight: 500;
+    }
+    @include mq(sp) {
+      width: 85%;
+      padding: 0 0 34px;
+      margin: 34px 10% 0 5%;
+    }
+  }
+}
+
+.pagination {
+  clear: both;
+  margin: 80px 0 0;
+  position: relative;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  @include mq(sp) {
+    margin: 40px 0 0;
+  }
+}
+.pagination-box {
+  display: inline-block;
+}
+.pagination span, .pagination a {
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 15px 20px;
+  text-decoration: none;
+  width: auto;
+  color: #000; /* 通常の文字色 */
+  background: $beige; /* 通常の背景色 */
+  @include mq(sp) {
+    padding: 15px 20px;
+  }
+}
+.pagination a:hover{
+  color: #fff; /* マウスホバー時の文字色 */
+  background: #000; /* マウスホバー時の背景色 */
+}
+.pagination .current{
+  padding: 15px 20px;
+  color: #fff; /* 現在のページの文字色 */
+  background: #000; /* 現在のページの背景色 */
+  @include mq(sp) {
+    padding: 15px 20px;
+  }
+}
+.page-of {
+  display: none!important;
+}

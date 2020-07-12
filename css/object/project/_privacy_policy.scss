@@ -1,0 +1,50 @@
+// main: ../../default.scss
+.p-privacy {
+  background: $gray;
+  margin: 60px 0 0;
+  padding: 60px 0;
+  &-wrap {
+    background: #fff;
+    box-shadow: 40px 40px $beige;
+    width: 740px;
+    padding: 60px 160px;
+    margin: 0 auto;
+    @include mq(sp) {
+      width: calc(95% - 60px);
+      padding: 40px 30px;
+      margin: 0 0 0 5%;
+    }
+    &--copy {
+      font-weight: 300;
+      line-height: 2;
+      margin: 0 0 30px;
+    }
+    &--border {
+      height: 2px;
+      background: #b1d4a3;
+    }
+    &--ttl {
+      margin: 20px 0 0;
+      color: $brown;
+      font-weight: 500;
+    }
+    &--desc {
+      font-weight: 300;
+      line-height: 2;
+      margin: 12px 0 0;
+      padding: 0 0 0 20px;
+      &__child {
+        font-weight: 300;
+        line-height: 1.6;
+        margin: 20px 0 0;
+        padding: 0 0 0 40px;
+      }
+      @include mq(sp) {
+        padding: 0 0 0 10px;
+        &__child {
+          padding: 0 0 0 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+// main: ../../default.scss
+.c-btn {
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  background-image: linear-gradient(to right, #000 50%, $dark_green 50%);
+	background-position: 0 0;
+	background-size: 200% auto;
+	transition: all .3s ease 0s;
+  &:hover {
+  	background-position: -100% 0;
+  }
+  &::after {
+    position: absolute;
+    top: 51%;
+    right: -25px;
+    border-top: 1px solid $border_green;
+    content: "";
+    width: 50px;
+  }
+
+  &__text {
+    color: #fff;
+    padding: 23px 0;
+  }
+  @include mq(sp) {
+    background: #000;
+  }
+}

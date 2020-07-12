@@ -1,0 +1,158 @@
+// main: ../../default.scss
+.c-gas {
+  padding: 90px 0;
+  background: $gray;
+  &-wrap {
+    @include container();
+    @include mq(sp) {
+      width: 100%;
+    }
+  }
+  &-ttl {
+    width: fit-content;
+    font-size: 3.6rem;
+    color: #122411;
+    margin: 0 auto;
+    letter-spacing: 8px;
+    position: relative;
+    &:before {
+      content: url('../images/indust_ttl.png');
+      position: absolute;
+      top: -30px;
+      left: 90px;
+    }
+    &__results {
+      margin: 120px auto 0;
+      &:before {
+        content: url('../images/our_works.png');
+        left: 180px;
+      }
+    }
+    @include mq(sp) {
+      letter-spacing: 4px;
+      &:before {
+        left: 67px;
+      }
+      &__results {
+        text-align: center;
+      }
+    }
+  }
+  &-subttl {
+    font-size: 2.1rem;
+    color: #384238;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+  }
+  &-conts {
+    width: 960px;
+    margin: 100px auto 0;
+    padding: 30px 100px 30px 0;
+    background: #fff;
+    box-shadow: 30px 30px $beige;
+    display: table;
+    table-layout: fixed;
+    @include mq(sp) {
+      width: 95%;
+      margin: 100px 0 0 5%;
+      padding: 30px 0;
+      display: inherit;
+    }
+    &--img {
+      width: 400px;
+      @include tableCell();
+      img {
+        width: auto;
+        margin: 0 auto;
+        display: block;
+      }
+      @include mq(sp) {
+        width: 100%;
+        display: inherit;
+        img {
+          width: auto;
+        }
+      }
+    }
+    &--product {
+      width: 500px;
+      @include tableCell();
+      &__ttl {
+        color: $green;
+        font-size: 2.1rem;
+        font-weight: 500;
+        padding: 0 0 14px;
+        border-bottom: 1px solid $green;
+        letter-spacing: -1px;
+      }
+      &__desc {
+        line-height: 2.3;
+        font-weight: 300;
+        margin: 14px 0 0;
+      }
+      @include mq(sp) {
+        width: 86%;
+        margin: 0 auto;
+        display: inherit;
+        &__ttl {
+          margin: 14px 0 0;
+        }
+        &__desc {
+          line-height: 2;
+        }
+      }
+    }
+  }
+
+  &-table {
+    width: $container;
+    margin: 60px auto 0;
+    border-bottom: 1px solid #b1d4a3;
+    tr {
+      border-top: 1px solid #b1d4a3;
+    }
+    th {
+      padding: 20px 0 20px 180px;
+      img {
+        width: inherit;
+        margin: 0 20px 0 0;
+      }
+    }
+    td {
+      padding: 20px 180px 20px 0;
+    }
+    @include mq(sp) {
+      width: 90%;
+      th {
+        width: 100%;
+        padding: 20px 0 5px 0;
+        display: block;
+        img {
+          width: auto;
+          margin: 0 10px 0 0;
+        }
+      }
+      td {
+        width: 100%;
+        padding: 5px 0 20px 0;
+        display: block;
+      }
+    }
+  }
+
+  &-btn {
+    width: 340px;
+    margin: 100px auto 0;
+    font-size: 1.4rem;
+    display: block;
+    &::after {
+      right: 0;
+      left: -25px;
+    }
+    @include mq(sp) {
+      width: 80%;
+      max-width: 340px;
+    }
+  }
+}

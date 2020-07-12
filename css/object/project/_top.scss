@@ -1,0 +1,302 @@
+// main: ../../default.scss
+.p-top {
+  &-visual {
+    position: relative;
+    &--slider {
+      width: 100%;
+      min-height: 100vh;
+      img {
+        object-fit: cover;
+        min-height: 100vh;
+      }
+      &__img {
+        position: relative;
+      }
+      &__copy {
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        color: #fff;
+      }
+      &__sub {
+        font-size: 2.1rem;
+        letter-spacing: 10px;
+      }
+      &__main {
+        font-size: 7.1rem;
+        letter-spacing: 3px;
+      }
+      &__number {
+        position: absolute;
+        top: 63%;
+        left: 14%;
+        z-index: 10;
+        color: #fff;
+        font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+        font-size: 2rem;
+        span {
+          font-size: 2.6rem;
+          font-weight: 600;
+        }
+      }
+      &-arrow {
+        color: #fff;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 10;
+        top: 64%;
+        &__prev {
+          left: 10%;
+        }
+        &__next {
+          left: 23%;
+        }
+      }
+      &__fade{
+      　opacity:0;
+        animation-name:logo;
+        animation-duration:170s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        transition: 1s;
+      }
+      @keyframes logo {
+      0% {
+       opacity: 0;
+       transform: translateY(-10px);
+      }
+        1%{
+          opacity: 1;
+           transform: translateY(0);
+        }
+      }
+    } //.p-top-visual--slider
+    &--news {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0,0,0,.6);
+      padding: 20px 0;
+      &--conts {
+        @include flex();
+      }
+    }
+  } //.p-top-visual
+
+  &-overview {
+    padding: 185px 0 170px;
+    text-align: center;
+    background-image: url('../images/top_overview_bg.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    &--ttl {
+      font-size: 7.2rem;
+      letter-spacing: 8px;
+      color: $dark_green;
+      display: inline-block;
+      position: relative;
+      &:after {
+        content: url('../images/top_overview.png');
+        position: absolute;
+        bottom: -35px;
+        right: -55px;
+      }
+    }
+    &--subttl {
+      font-size: 2.4rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+      margin: 40px 0 90px;
+    }
+    &--copy {
+      line-height: 2.2;
+    }
+    &--btn {
+      // background: #000;
+      margin: 70px auto 0;
+      font-size: 1.4rem;
+    }
+  } //.p-top-overview
+
+  &-service {
+    padding: 150px 0 50px;
+    background-image: url('../images/top_service_bg.jpg');
+    background-size: cover;
+    background-position: 50% 100%;
+    &--icon {
+      width: 49px;
+      margin: 0 auto;
+    }
+    &--ttl {
+      font-size: 3.6rem;
+      letter-spacing: 6px;
+      color: #fff;
+      display: inline-block;
+      margin: 40px 0 8px;
+      position: relative;
+      &:after {
+        content: url('../images/top_service_text.png');
+        position: absolute;
+        top: -25px;
+        left: 10px;
+      }
+    }
+    &--subttl {
+      color: #fff;
+      font-size: 2.1rem;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 3px;
+    }
+    &--copy {
+      text-align: center;
+      line-height: 2.6;
+      margin: 70px 0 40px;
+    }
+    &--wrap {
+      width: $container;
+      margin: 0 auto;
+      @include flex();
+    }
+    &--cont {
+      width: 500px;
+      margin: 0 60px 80px 0;
+      &:nth-child(even) {
+        margin: 0 0 80px;
+      }
+      &__img {
+        transition: .3s;
+        &:hover {
+          opacity: .8;
+        }
+      }
+      &__text {
+        margin: 20px 0 0;
+        text-align: center;
+        color: #fff;
+        font-size: 1.8rem;
+      }
+    }
+  } //.p-top-service
+
+  &-topics {
+    margin: 20px 0 0;
+    &--visual {
+      position: relative;
+    }
+    &--ttl {
+      position: absolute;
+      left: 0;
+      bottom: -64px;
+      width: 210px;
+      background: $dark_green;
+      padding: 44px 0 54px 190px;
+      &__img {
+        width: 104px;
+      }
+      &__main {
+        color: #fff;
+        font-size: 3.6rem;
+        letter-spacing: 4px;
+      }
+      &__sub {
+        color: $green_tea;
+        font-size: 2.1rem;
+      }
+    }
+    &--wrap {
+      padding: 130px 0 120px;
+      background: $gray;
+    }
+    &--conts {
+      width: 990px;
+      background: #fff;
+      box-shadow: 70px 80px $beige;
+      @include flex();
+    }
+    &--cont {
+      width: 329px;
+      box-sizing: border-box;
+      padding: 30px 30px 40px;
+      &__border {
+        border-left: 1px solid $beige;
+        &:nth-child(1) {
+          border-left: none;
+        }
+      }
+      &:hover .u-arrow {
+        margin: 0 0 0 20px;
+      }
+      &__head {
+        @include flex();
+      }
+      &__date {
+        color: #a8b788;
+        font-size: 1.8rem;
+        margin: 0 20px 0 0;
+      }
+      &__cat {
+        color: #fff;
+        font-size: 1.2rem;
+        padding: 3px 8px 0;
+      }
+      &__ttl {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 8px 0;
+      }
+      &__desc {
+        margin: 0 0 20px;
+      }
+    }
+    &--btn {
+      width: 180px;
+      margin: 30px 0 0 810px;
+    }
+  } //.p-top-topics
+
+  &-recruit {
+    padding: 0 0 160px;
+    background: $dark_green;
+    &--wrap {
+      @include flex();
+      min-width: 1440px;
+    }
+    &--img {
+      width: 50%;
+      position: relative;
+      &__text {
+        position: absolute;
+        bottom: -20px;
+        right: 30px;
+        width: 175px;
+      }
+    }
+    &--conts {
+      width: 50%;
+    }
+    &--ttl {
+      font-size: 3.6rem;
+      color: #fff;
+      letter-spacing: 6px;
+      margin: 110px 0 0 80px;
+    }
+    &--subttl {
+      color: $green_tea;
+      font-size: 2.1rem;
+      margin: 0 0 50px 80px;
+    }
+    &--desc {
+      color: #fff;
+      line-height: 2.8;
+      margin: 0 0 0 80px;
+    }
+    &--btn {
+      margin: 50px 0 0 80px;
+      background-image: linear-gradient(to right, $dark_green 50%, #000 50%);
+      border: 1px solid $border_green;
+    }
+  } //.p-top-recruit
+} //.p-top

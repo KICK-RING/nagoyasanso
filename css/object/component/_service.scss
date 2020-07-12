@@ -1,0 +1,123 @@
+// main: ../../default.scss
+.c-service {
+  &-wrap {
+    text-align: center;
+    @include container();
+    &--ttl {
+      font-size: 3.2rem;
+      font-weight: 500;
+      color: $brown;
+      letter-spacing: 6px;
+    }
+    &--desc {
+      font-weight: 300;
+      line-height: 2.4;
+      margin: 40px 0 70px;
+    }
+    @include mq(sp) {
+      text-align: inherit;
+      @include container(90%);
+      &--ttl {
+        font-size: 2.4rem;
+        text-align: center;
+      }
+      &--desc {
+        line-height: 2;
+        margin: 40px 0 50px;
+      }
+    }
+  }
+  &-conts {
+    background: $gray;
+    padding: 80px 0;
+    @include mq(sp) {
+      padding: 80px 0 1px;
+    }
+  }
+  &-cont {
+    position: relative;
+    @include container();
+    margin-bottom: 100px;
+    @include mq(sp) {
+      position: inherit;
+      width: 100%;
+    }
+    &--img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 600px;
+      @include mq(sp) {
+        position: inherit;
+        width: 100%;
+        margin: 40px 0 0;
+      }
+    }
+    &--ttl {
+      font-size: 3.6rem;
+      letter-spacing: 7px;
+      color: $dark_green;
+      font-weight: 400;
+      @include mq(sp) {
+        @include container(90%);
+      }
+    }
+    &--subttl {
+      font-size: 2.4rem;
+      letter-spacing: 4px;
+      font-weight: 500;
+      color: $brown;
+      @include mq(sp) {
+        font-size: 2rem;
+        font-weight: 600;
+        @include container(90%);
+      }
+    }
+    &--item {
+      background: #fff;
+      width: 500px;
+      padding: 40px;
+      margin: 60px 0 0 -40px;
+      position: relative;
+      z-index: 2;
+      &__ttl {
+        color: #1c5719;
+        font-weight: 600;
+      }
+      &__product {
+        line-height: 2.4;
+        margin: 20px 0 40px;
+        letter-spacing: 1px;
+      }
+      &__btn {
+        padding: 18px 0;
+      }
+      @include mq(sp) {
+        width: calc(90% - 80px);
+        margin: -40px auto 0;
+        padding: 30px 40px 40px;
+      }
+    }
+  }
+  &-cont__even {
+    .c-service-cont {
+      &--img {
+        right: inherit;
+        left: 0;
+      }
+      &--ttl,
+      &--subttl {
+        text-align: right;
+        @include mq(sp) {
+          text-align: inherit;
+        }
+      }
+      &--item {
+        margin: 60px 0 0 500px;
+        @include mq(sp) {
+          margin: -40px auto 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,248 @@
+// main: ../../default.scss
+.p-environment {
+  padding: 56px 0 0;
+  &-head {
+    @include container();
+    @include mq(sp) {
+      @include container(90%);
+    }
+  }
+  &-ttl {
+    font-size: 7.2rem;
+    letter-spacing: 14px;
+    color: $dark_green;
+    width: fit-content;
+    position: relative;
+    line-height: 1.3;
+    &:after {
+      position: absolute;
+      bottom: -7px;
+      right: 53px;
+      content: url('../images/environment_subttl.png');
+    }
+    @include mq(sp) {
+      font-size: 5rem;
+      letter-spacing: 4px;
+      &:after {
+        bottom: -15px;
+        right:0;
+        content: url('../images/sp/protection.png');
+      }
+    }
+  }
+  &-wrap {
+    position: relative;
+    &__bg {
+      position: absolute;
+      top: 10px;
+      right: 0;
+      width: 55%;
+      height: 560px;
+      background: $gray;
+      z-index: -1;
+      @include mq(sp) {
+        display: none;
+      }
+    }
+  }
+  &-conts {
+    margin: 0 0 200px;
+    @include flex();
+    @include mq(sp) {
+      margin: 0 0 160px;
+      display: inherit;
+    }
+  }
+  &-cont {
+    width: 530px;
+    &--subttl {
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: $brown;
+      line-height: 2;
+      margin: 46px 0 0;
+    }
+    &--desc {
+      width: 494px;
+      background: #fff;
+      padding: 46px 36px 46px 0;
+      line-height: 2.4;
+      font-weight: 300;
+      letter-spacing: -1px;
+      @include mq(sp) {
+        width: calc(90% - 40px);
+        padding: 30px 20px 0;
+        line-height: 2;
+        margin: -40px auto 0;
+        letter-spacing: 0;
+      }
+    }
+    @include mq(sp) {
+      width: 90%;
+      margin: 0 auto;
+      &--subttl {
+        font-size: 1.8rem;
+      }
+    }
+  }
+  &-certificate {
+    width: 480px;
+    padding: 80px 0 0 50px;
+    @include flex();
+    &--conts {
+      width: 240px;
+    }
+    &--table {
+      font-size: 1.4rem;
+      margin: 0 0 0 20px;
+      th {
+        font-weight: bold;
+      }
+    }
+    @include mq(sp) {
+      width: 100%;
+      padding: 20px 0 60px;
+      display: inherit;
+      background: $gray;
+      margin: 40px 0 0;
+      &--conts {
+        width: 90%;
+        margin: 0 auto 10px;
+      }
+      &--table {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &-copy {
+    background-image: url('../images/environment_copy_bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 160px 0;
+    @include mq(sp) {
+      padding: 60px 0;
+    }
+    &--wrap {
+      @include flex();
+      margin: 0 auto;
+      width: fit-content;
+      @include mq(sp) {
+        display: inherit;
+        width: auto;
+      }
+    }
+    &--text {
+      color: #fff;
+      font-size: 3.6rem;
+      letter-spacing: 6px;
+      text-align: center;
+      padding: 0 40px;
+    }
+    &--cross {
+      color: #fff;
+      font-size: 4rem;
+      font-weight: 100;
+      margin: 24px 0 0;
+      @include mq(sp) {
+        margin: 0;
+        text-align: center;
+      }
+    }
+  }
+
+  &-quality {
+    background: $gray;
+    padding: 120px 0 80px;
+    position: relative;
+    @include mq(sp) {
+      padding: 0 0 120px;
+      position: inherit;
+    }
+    &--wrap {
+      width: 530px;
+      margin: 0 0 80px;
+      &__ttl {
+        color: #122411;
+        font-size: 3.6rem;
+        letter-spacing: 6px;
+      }
+      &__subttl {
+        font-size: 2.1rem;
+        color: #239969;
+        font-weight: 500;
+        margin: 8px 0 40px;
+      }
+      &__desc {
+        width: 420px;
+        line-height: 2.4;
+        font-weight: 300;
+      }
+      @include mq(sp) {
+        width: 90%;
+        margin: 40px auto 30px;
+        &__desc {
+          width: 100%;
+          line-height: 2;
+        }
+      }
+    }
+    &--img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 50%;
+      height: 700px;
+      img {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+      }
+      @include mq(sp) {
+        position: inherit;
+        width: 100%;
+        height: auto;
+        img {
+          height: auto;
+        }
+      }
+    }
+    &--promise {
+      background: #fff;
+      position: relative;
+      z-index: 2;
+      padding: 45px 30px 48px;
+      @include boxshadow();
+      @include container(1000px);
+      @include flex();
+      &--conts {
+        width: 160px;
+        margin: 0 20px;
+      }
+      &--icon {
+        width: 90px;
+        margin: 0 auto 40px;
+      }
+      &--desc {
+        line-height: 2.2;
+      }
+      @include mq(sp) {
+        position: inherit;
+        padding: 1px 0 60px;
+        width: 95%;
+        margin: 0 0 0 5%;
+        display: inherit;
+        &--conts {
+          width: 86%;
+          margin: 50px auto 0;
+        }
+        &--icon {
+          margin: 0 auto 10px;
+        }
+        &--desc {
+          line-height: 2;
+        }
+      }
+    }
+  } //.p-environment-quality
+} //p-environment
