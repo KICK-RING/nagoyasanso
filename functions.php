@@ -1,6 +1,6 @@
 <?php
   function my_scripts() {
-  wp_enqueue_script( 'script-name', get_template_directory_uri() . '/kick-ring.js', array( 'jquery' ), '1.0.1', true );
+  wp_enqueue_script( 'script-name', get_template_directory_uri() . '/default.js', array( 'jquery' ), '1.0.1', true );
   }
   add_action( 'wp_enqueue_scripts', 'my_scripts' );
 

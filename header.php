@@ -33,29 +33,28 @@
   </head>
 
   <body>
-    <div class="wrapper">
-      <main>
-        <header class="l-header l-header__bg">
-          <a href="/">
-            <div class="l-header-logo">
-              <picture>
-                <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/logo.png">
-                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="NAGOYA SANSO">
-              </picture>
-            </div>
-          </a>
-          <ul class="l-header-nav">
-            <a href="/company/"><li class="l-header-nav--item"><span>会社案内</span></li></a>
-            <a href="/message/"><li class="l-header-nav--item"><span>社長挨拶</span></li></a>
-            <a href="/environment/"><li class="l-header-nav--item"><span>環境への取り組み</span></li></a>
-            <a href="/datasheet/"><li class="l-header-nav--item"><span>安全データシート</span></li></a>
-            <?php if ( is_home() || is_front_page() ) : ?>
-            <a href="#service"><li class="l-header-nav--item"><span>取扱い製品</span></li></a>
-            <?php else : ?>
-            <a href="/#service"><li class="l-header-nav--item"><span>取扱い製品</span></li></a>
-            <?php endif; ?>
-            <a href="/info/"><li class="l-header-nav--item"><span>お知らせ</span></li></a>
-            <a href="/recruit/"><li class="l-header-nav--item"><span>採用情報</span></li></a>
-          </ul>
-          <a href="/contact/"><div class="l-header-contact"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mail_icon_white.png"></div></a>
-        </header>
+    <main>
+      <header class="l-header l-header__bg">
+        <a href="/">
+          <div class="l-header-logo">
+            <picture>
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/logo.png">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="NAGOYA SANSO">
+            </picture>
+          </div>
+        </a>
+        <ul class="l-header-nav">
+          <a href="/company/"><li class="l-header-nav--item"><span>会社案内</span></li></a>
+          <a href="/message/"><li class="l-header-nav--item"><span>社長挨拶</span></li></a>
+          <a href="/environment/"><li class="l-header-nav--item"><span>環境への取り組み</span></li></a>
+          <a href="/datasheet/"><li class="l-header-nav--item"><span>安全データシート</span></li></a>
+          <?php if ( is_home() || is_front_page() ) : ?>
+          <a href="#service"><li class="l-header-nav--item"><span>取扱い製品</span></li></a>
+          <?php else : ?>
+          <a href="/#service"><li class="l-header-nav--item"><span>取扱い製品</span></li></a>
+          <?php endif; ?>
+          <a href="/info/"><li class="l-header-nav--item"><span>お知らせ</span></li></a>
+          <a href="/recruit/"><li class="l-header-nav--item"><span>採用情報</span></li></a>
+        </ul>
+        <a href="/contact/"><div class="l-header-contact"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mail_icon_white.png"></div></a>
+      </header>

@@ -68,9 +68,8 @@
         <div class="p-top-visual--news--conts__head u-font-en">NEWS</div>
         <div class="p-top-visual--news--conts__data"><?php the_time('Y.m.d'); ?></div>
         <?php $cat = get_the_category(); $cat = $cat[0]; { echo '<div class="p-top-visual--news--conts__cat u-cat-' . $cat->category_nicename . '" >'; } ?><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?></div>
-        <div class="p-top-visual--news--conts__ttl"><?php the_title(); ?></div>
+        <div class="p-top-visual--news--conts__ttl"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
       </div>
-
       <?php
         endwhile;
       else:
@@ -90,26 +89,21 @@
       お取引先様に恵まれ、おかげ様でガス充填において地区トップクラスに成長できました。<br>
       これは皆様からのご愛顧があってこその賜物でございます。<br>
       今度は、私たちの番です。<br>
-      「いつもここにいる、いつもここにある」をモットーに、<br>
-      お客様の「今」にお応えできる品質、サービスを追求し、<br>
+      「いつもここにいる、いつもここにある」をモットーに、<br class="pc">
+      お客様の「今」にお応えできる品質、サービスを追求し、<br class="pc">
       「今」以上の満足のために常に前進し続けます。<br>
-      この激動の時代だからこそ、その時の一瞬を常に全力で、<br>
+      この激動の時代だからこそ、その時の一瞬を常に全力で、<br class="pc">
       そして、ともに次の100年ヘ
     </div>
     <div class="c-btn p-top-overview--btn"><a href="#" class="c-btn__hover"><div class="c-btn__text">会社案内を詳しく見る</div></a></div>
   </section>
 
   <section class="p-top-service" id="service">
-    <div class="p-top-service--icon">
-      <picture>
-        <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/sp_top_visual04.jpg">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service_icon.png">
-      </picture>
-    </div>
+    <div class="p-top-service--icon"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service_icon.png"></div>
     <div class="u-center"><div class="p-top-service--ttl u-font-en">SERVICES</div></div>
     <div class="p-top-service--subttl">取り扱い商品</div>
     <div class="p-top-service--copy">
-      酸素や炭酸ガス・高圧ガスなどの製造・販売から工場などで使われる溶接・溶断機械や材料類、<br>
+      酸素や炭酸ガス・高圧ガスなどの製造・販売から工場などで使われる溶接・溶断機械や材料類、<br class="pc">
       産業ロボットなどの販売も展開しています。<br>
       その他、医薬品・医薬部外品や毒劇物、工業用薬品類の販売も展開しています。
     </div>
@@ -118,7 +112,7 @@
         <div class="p-top-service--cont__img">
           <a href="/indust_invest/">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/sp_top_visual04.jpg">
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service01.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service01.png">
             </picture>
           </a>
@@ -129,7 +123,7 @@
         <div class="p-top-service--cont__img">
           <a href="/medical/">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/sp_top_visual04.jpg">
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service02.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service02.png">
             </picture>
           </a>
@@ -140,7 +134,7 @@
         <div class="p-top-service--cont__img">
           <a href="/welding/">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/sp_top_visual04.jpg">
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service03.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service03.png">
             </picture>
           </a>
@@ -151,7 +145,7 @@
         <div class="p-top-service--cont__img">
           <a href="/equipment/">
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/sp_top_visual04.jpg">
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service04.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service04.png">
             </picture>
           </a>
@@ -164,16 +158,11 @@
   <section class="p-top-topics">
     <div class="p-top-topics--visual">
       <picture>
-        <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/sp_top_visual04.jpg">
+        <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_topics.jpg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_topics.jpg">
       </picture>
       <div class="p-top-topics--ttl">
-        <div class="p-top-topics--ttl__img">
-          <picture>
-            <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/sp_top_visual04.jpg">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_topics_ttl.png">
-          </picture>
-        </div>
+        <div class="p-top-topics--ttl__img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_topics_ttl.png"></div>
         <div class="p-top-topics--ttl__main u-font-en">TOPICS</div>
         <div class="p-top-topics--ttl__sub">お知らせ</div>
       </div>
@@ -207,7 +196,7 @@
             endif;
           ?>
         </div>
-        <div class="c-btn p-top-topics--btn"><a href="/info/" class="c-btn__hover"><div class="c-btn__text">お知らせ一覧</div></a></div>
+        <div class="c-btn p-top-topics--btn"><a href="/info/" class="c-btn__hover"><div class="c-btn__text p-top-topics--btn__text">お知らせ一覧</div></a></div>
       </div>
     </div>
   </section>
@@ -216,7 +205,7 @@
     <div class="p-top-recruit--wrap">
       <div class="p-top-recruit--img">
         <picture>
-          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/sp_top_visual04.jpg">
+          <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_recruit.jpg">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_recruit.jpg">
         </picture>
         <div class="p-top-recruit--img__text"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_recruit_text.png"></div>
@@ -225,10 +214,10 @@
         <div class="u-font-en p-top-recruit--ttl">RECRUIT</div>
         <div class="p-top-recruit--subttl">採用について</div>
         <div class="p-top-recruit--desc">
-          POWER OF HISTORY - 100年以上ガス、溶材をお届けしてきた<br>
+          POWER OF HISTORY - 100年以上ガス、溶材をお届けしてきた<br class="pc">
           私たちと一緒に次の100年を創造していきませんか。<br>
           転職経験のある社員も多く、経験は問いません。<br>
-          中途入社のハンディはなく、実務を早く覚えていただけるよう<br>
+          中途入社のハンディはなく、実務を早く覚えていただけるよう<br class="pc">
           に現場・会社でバックアップをしていきます。
         </div>
         <div class="c-btn p-top-recruit--btn"><a href="/recruit/" class="c-btn__hover"><div class="c-btn__text">採用情報を詳しく見る</div></a></div>

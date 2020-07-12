@@ -7,7 +7,7 @@
   width: 100%;
   min-width: 1300px;
   @include flex();
-  z-index: 1001;
+  z-index: 9;
   transition: .5s;
   &__bg {
     background: $dark;
@@ -17,7 +17,8 @@
     margin: 28px 0 28px 37px;
   }
   @include mq(sp) {
-    top: 20px;
+    position: absolute;
+    top: 44px;
     left: 5%;
     background: inherit;
     width: 170px;

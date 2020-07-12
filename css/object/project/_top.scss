@@ -17,14 +17,25 @@
         top: 45%;
         left: 10%;
         color: #fff;
+        @include mq(sp) {
+          top: 30%;
+          left: 5%;
+        }
       }
       &__sub {
         font-size: 2.1rem;
         letter-spacing: 10px;
+        @include mq(sp) {
+          font-size: 1.4rem;
+          letter-spacing: 2px;
+        }
       }
       &__main {
         font-size: 7.1rem;
         letter-spacing: 3px;
+        @include mq(sp) {
+          font-size: 3.8rem;
+        }
       }
       &__number {
         position: absolute;
@@ -38,6 +49,10 @@
           font-size: 2.6rem;
           font-weight: 600;
         }
+        @include mq(sp) {
+          top: 48.7%;
+          left: 15%;
+        }
       }
       &-arrow {
         color: #fff;
@@ -50,6 +65,15 @@
         }
         &__next {
           left: 23%;
+        }
+        @include mq(sp) {
+          top: 50%;
+          &__prev {
+            left: 5%;
+          }
+          &__next {
+            left: 40%;
+          }
         }
       }
       &__fade{
@@ -77,9 +101,36 @@
       left: 0;
       width: 100%;
       background: rgba(0,0,0,.6);
-      padding: 20px 0;
+      padding: 40px 0;
       &--conts {
+        color: #fff;
         @include flex();
+        &__head {
+          margin: 0 40px;
+        }
+        &__data {
+          margin: 0 30px 0 0;
+        }
+        &__cat {
+          font-size: 1.2rem;
+          margin: 0 30px 0 0;
+          padding: 3px 10px 0;
+        }
+      }
+      @include mq(sp) {
+        padding: 22px 0;
+        &--conts {
+          &__head {
+            margin: 0 20px;
+          }
+          &__cat {
+            margin: 0;
+          }
+          &__ttl {
+            display: block;
+            margin: 0 0 0 73px;
+          }
+        }
       }
     }
   } //.p-top-visual
@@ -91,6 +142,13 @@
     background-size: auto;
     background-repeat: no-repeat;
     background-position: 50% 100%;
+    @include mq(sp) {
+      padding: 60px 0 50px;
+      text-align: left;
+      background-image: url('../images/sp/top_overview_bg.jpg');
+      background-size: cover;
+      background-position: 50% 100%;
+    }
     &--ttl {
       font-size: 7.2rem;
       letter-spacing: 8px;
@@ -103,20 +161,39 @@
         bottom: -35px;
         right: -55px;
       }
+      @include mq(sp) {
+        font-size: 5.2rem;
+        width: 90%;
+        margin: 0 5%;
+        &:after {
+          right: 0px;
+        }
+      }
     }
     &--subttl {
       font-size: 2.4rem;
       font-weight: bold;
       letter-spacing: 3px;
       margin: 40px 0 90px;
+      @include mq(sp) {
+        width: 90%;
+        margin: 30px 5%;
+      }
     }
     &--copy {
       line-height: 2.2;
-    }
+      @include mq(sp) {
+        width: 90%;
+        margin: 0 5%;
+      }
+     }
     &--btn {
-      // background: #000;
       margin: 70px auto 0;
       font-size: 1.4rem;
+      @include mq(sp) {
+        margin: 40px auto 0;
+        display: block;
+      }
     }
   } //.p-top-overview
 
@@ -125,6 +202,10 @@
     background-image: url('../images/top_service_bg.jpg');
     background-size: cover;
     background-position: 50% 100%;
+    @include mq(sp) {
+      padding: 60px 0 50px;
+      background-image: url('../images/sp/top_service_bg.jpg');
+    }
     &--icon {
       width: 49px;
       margin: 0 auto;
@@ -154,11 +235,22 @@
       text-align: center;
       line-height: 2.6;
       margin: 70px 0 40px;
+      @include mq(sp) {
+        text-align: left;
+        line-height: 2.2;
+        width: 90%;
+        margin: 50px 5% 40px;
+      }
     }
     &--wrap {
       width: $container;
       margin: 0 auto;
       @include flex();
+      @include mq(sp) {
+        width: 90%;
+        margin: 0 5%;
+        display: inherit;
+      }
     }
     &--cont {
       width: 500px;
@@ -178,6 +270,16 @@
         color: #fff;
         font-size: 1.8rem;
       }
+      @include mq(sp) {
+        width: 100%;
+        margin: 0 0 60px;
+        &:nth-child(even) {
+          margin: 0 0 50px;
+        }
+        &__text {
+          margin: 12px 0 0;
+        }
+      }
     }
   } //.p-top-service
 
@@ -193,6 +295,9 @@
       width: 210px;
       background: $dark_green;
       padding: 44px 0 54px 190px;
+      @include mq(sp) {
+        padding: 34px 0 34px 30px;
+      }
       &__img {
         width: 104px;
       }
@@ -215,14 +320,29 @@
       background: #fff;
       box-shadow: 70px 80px $beige;
       @include flex();
+      @include mq(sp) {
+        width: 95%;
+        margin: 0 0 0 5%;
+        padding: 20px 0;
+        box-shadow: 30px 80px $beige;
+        display: inherit;
+      }
     }
     &--cont {
       width: 329px;
       box-sizing: border-box;
       padding: 30px 30px 40px;
+      @include mq(sp) {
+        width: 84%;
+        margin: 0 8%;
+        padding: 30px 0;
+      }
       &__border {
         border-left: 1px solid $beige;
         &:nth-child(1) {
+          border-left: none;
+        }
+        @include mq(sp) {
           border-left: none;
         }
       }
@@ -254,15 +374,29 @@
     &--btn {
       width: 180px;
       margin: 30px 0 0 810px;
+      @include mq(sp) {
+        margin: 40px auto 0;
+        display: block;
+        &__text {
+          padding: 16px 0;
+        }
+      }
     }
   } //.p-top-topics
 
   &-recruit {
     padding: 0 0 160px;
     background: $dark_green;
+    @include mq(sp) {
+      padding: 0 0 60px;
+    }
     &--wrap {
       @include flex();
       min-width: 1440px;
+      @include mq(sp) {
+        display: inherit;
+        min-width: 100%;
+      }
     }
     &--img {
       width: 50%;
@@ -273,30 +407,55 @@
         right: 30px;
         width: 175px;
       }
+      @include mq(sp) {
+        width: 95%;
+        margin: 0 5% 0 0;
+        &__text {
+          right: -3%;
+        }
+      }
     }
     &--conts {
       width: 50%;
+      @include mq(sp) {
+        width: 90%;
+        margin: 60px 5% 0;
+      }
     }
     &--ttl {
       font-size: 3.6rem;
       color: #fff;
       letter-spacing: 6px;
       margin: 110px 0 0 80px;
+      @include mq(sp) {
+        margin: 0;
+      }
     }
     &--subttl {
       color: $green_tea;
       font-size: 2.1rem;
       margin: 0 0 50px 80px;
+      @include mq(sp) {
+        margin: 0 0 20px;
+      }
     }
     &--desc {
       color: #fff;
       line-height: 2.8;
       margin: 0 0 0 80px;
+      @include mq(sp) {
+        margin: 0;
+      }
     }
     &--btn {
       margin: 50px 0 0 80px;
       background-image: linear-gradient(to right, $dark_green 50%, #000 50%);
       border: 1px solid $border_green;
+      @include mq(sp) {
+        margin: 50px auto 0;
+        background: inherit;
+        display: block;
+      }
     }
   } //.p-top-recruit
 } //.p-top

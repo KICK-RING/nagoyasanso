@@ -11,22 +11,10 @@ jQuery(function(){
 jQuery('.menu-trigger').on('click',function(){
   if(jQuery(this).hasClass('active')){
     jQuery(this).removeClass('active');
-    jQuery('main').removeClass('open');
-    jQuery('nav').removeClass('open');
-    jQuery('.overlay').removeClass('open');
+    jQuery('nav').fadeOut( 500 );
   } else {
     jQuery(this).addClass('active');
-    jQuery('main').addClass('open');
-    jQuery('nav').addClass('open');
-    jQuery('.overlay').addClass('open');
-  }
-});
-jQuery('.overlay').on('click',function(){
-  if(jQuery(this).hasClass('open')){
-    jQuery(this).removeClass('open');
-    jQuery('.menu-trigger').removeClass('active');
-    jQuery('main').removeClass('open');
-    jQuery('nav').removeClass('open');
+    jQuery('nav').fadeIn( 500 );
   }
 });
 
