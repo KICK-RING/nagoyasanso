@@ -17,5 +17,10 @@ jQuery('.menu-trigger').on('click',function(){
     jQuery('nav').fadeIn( 500 );
   }
 });
+//spNavi 取扱商品 +-とその子要素
+jQuery('.nav-slide').click(function() {
+  jQuery('.nav-slide span').toggleClass('active');
+  jQuery('.nav-slide--parent').slideToggle('500');
+});
 
 });

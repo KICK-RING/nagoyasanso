@@ -382,6 +382,7 @@ img {
     right: 0;
     z-index: 10;
     display: none;
+    overflow: scroll;
   }
   .nav-logo {
     width: 170px;
@@ -389,8 +390,59 @@ img {
   }
   nav li {
     color: #fff;
-    padding: 10px 0 10px 5%;
+    padding: 16px 0 16px 5%;
     border-top: 1px solid #067a4f;
+  }
+  .nav-slide {
+    padding: 16px 0 26px 5%;
+  }
+  .nav-slide span {
+    display: block;
+    position: relative;
+    margin: -10px 5% 0 0;
+  }
+  .nav-slide span::before, .nav-slide span::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .nav-slide span::after {
+    transform: translateY(-50%) rotate(90deg);
+    transition: 0.5s;
+  }
+  .nav-slide span.active::before, .nav-slide span.active::after {
+    background: #82ae9e;
+  }
+  .nav-slide span.active::after {
+    transform: rotate(0);
+    transition: 0.5s;
+  }
+  .nav-slide--parent {
+    display: none;
+    background: #04482f;
+  }
+  .nav-slide--parent li {
+    padding: 16px 0 16px 8%;
+  }
+  .nav-slide--parent li.nav-slide--child {
+    padding: 16px 0 16px 11%;
+  }
+  .nav-contact {
+    background: #239969;
+  }
+  .nav-contact--img {
+    width: 30px;
+    margin: 0 20px 0 0;
+  }
+  .nav-privacy--img {
+    width: 20px;
+    margin: 0 20px 0 0;
   }
 }
 

@@ -71,15 +71,27 @@
     <nav>
       <div class="nav-logo"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/sp/logo.png" alt="NAGOYA SANSO"></div>
       <ul>
-        <li><a href="/company/">会社案内</a></li>
-        <li><a href="/message/">社長挨拶</a></li>
-        <li><a href="/environment/">環境への取り組み</a></li>
-        <li><a href="/datasheet/">安心データシート</a></li>
-        <li><a href="/#service">取扱い製品</a></li>
-        <li><a href="/info/">お知らせ</a></li>
-        <li><a href="/recruit/">採用情報</a></li>
-        <li><a href="/contact/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mail_icon_white.png">お問い合わせ</a></li>
-        <li><a href="/privacy_policy/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/footer_privacy_icon.png">Privacy Policy</a></li>
+        <a href="/company/"><li>会社案内</li></a>
+        <a href="/message/"><li>社長挨拶</li></a>
+        <a href="/environment/"><li>環境への取り組み</li></a>
+        <a href="/datasheet/"><li>安心データシート</li></a>
+        <li class="nav-slide">取扱い製品<span></span></li>
+        <ul class="nav-slide--parent">
+          <a href="/indust_invest/"><li>商用ガス/分析・研究用ガス</li></a>
+          <a href="/indust/"><li class="nav-slide--child">商用ガス</li></a>
+          <a href="/invest/"><li class="nav-slide--child">分析・研究用ガス</li></a>
+          <a href="/medical/"><li>医療用ガス</li></a>
+          <a href="/medical_detail/"><li class="nav-slide--child">医療用ガス</li></a>
+          <a href="/welding/"><li>溶接・産業機器関連</li></a>
+          <a href="/equipment/"><li>ガス設備及び各種工事</li></a>
+          <a href="/facility/"><li class="nav-slide--child">ガス設備</li></a>
+          <a href="/spot/"><li class="nav-slide--child">スポット供給及び特殊ガス配管工事</li></a>
+          <a href="/construction/"><li class="nav-slide--child">各種工事</li></a>
+        </ul>
+        <a href="/info/"><li>お知らせ</li></a>
+        <a href="/recruit/"><li>採用情報</li></a>
+        <a href="/contact/"><li class="nav-contact"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mail_icon_white.png" class="nav-contact--img">お問い合わせ</li></a>
+        <a href="/privacy_policy/"><li><img src="<?php bloginfo('stylesheet_directory'); ?>/images/footer_privacy_icon.png" class="nav-privacy--img">Privacy Policy</li></a>
       </ul>
     </nav>
     <?php wp_footer(); ?>
@@ -89,5 +101,24 @@
       <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/header.js"></script>
     <?php endif; ?>
     <script src="//yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171450358-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-171450358-1');
+
+     $(window).on("load", function(){
+                   setTimeout(function(){
+
+                 $('a[href^="tel:"]').on("click", function(){
+                   gtag('event', 'click', {'event_category': 'tel','event_label': window.location.href, 'value': '1'});
+                 });
+                }, 1000);
+              });
+    </script>
   </body>
 </html>
