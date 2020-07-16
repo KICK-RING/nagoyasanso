@@ -8,9 +8,9 @@
       <div class="c-page-container">
         <div class="c-page-ttl">
           <div class="u-font-en c-page-ttl__main">MESSAGE</div>
-          <div class="c-page-ttl__sub">ごあいさつ</div>
+          <div class="c-page-ttl__sub"><h1>ごあいさつ</h1></div>
         </div>
-        <div class="c-page-breadcrumbs pc"><a href="/">HAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>社長挨拶</div>
+        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>社長挨拶</div>
       </div>
     </section>
 

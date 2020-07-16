@@ -25,6 +25,7 @@
     text-align: center;
     box-shadow: 0 0 30px #afafaf;
     margin: -94px 0 0;
+    z-index: 2;
     &__long {
       padding: 40px 10px;
     }
@@ -66,7 +67,9 @@
       color: #c2c2c2;
     }
     @include mq(sp) {
-      display: none;
+      text-align: right;
+      margin: 20px 5% 0 0;
+      font-size: 1.2rem;
     }
   }
 }

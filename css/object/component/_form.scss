@@ -10,6 +10,9 @@
     &__yubin {
       margin: 0;
     }
+    @include mq(ie) {
+      width: 860px;
+    }
   }
   &-must,
   &-any {
@@ -30,6 +33,10 @@
     @include mq(sp) {
       width: calc(100% - 70px);
     }
+    @include mq(ie) {
+      padding: 0 0 0 20px;
+      width: 94%;
+    }
   }
   &-field {
     width: 100%;
@@ -47,6 +54,10 @@
       width: 100%;
       font-size: 1.5rem;
     }
+    @include mq(ie) {
+      width: 860px;
+      display: block;
+    }
   }
   &-yubin {
     width: 550px;
@@ -63,6 +74,13 @@
     }
     @include mq(sp) {
       width: 100%;
+      input {
+        width: 70px;
+      }
+      &--note {
+        margin: 0;
+        font-size: 1.2rem;
+      }
     }
   }
   &-privacypolicy {
@@ -91,6 +109,9 @@
         cursor: pointer;
       }
     }
+    @include mq(ie) {
+      width: auto;
+    }
   }
 }
 
@@ -115,5 +136,9 @@ input[type="number"]::-webkit-inner-spin-button {
   margin: 0;
 }
 input[type="number"] {
-  -moz-appearance: textfield; 
+  -moz-appearance: textfield;
+}
+
+::placeholder{
+  color: #c2c2c2;
 }

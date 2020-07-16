@@ -8,9 +8,9 @@
       <div class="c-page-container">
         <div class="c-page-ttl">
           <div class="u-font-en c-page-ttl__main">GAS EQUIPMENT</div>
-          <div class="c-page-ttl__sub">ガス設備</div>
+          <div class="c-page-ttl__sub"><h1>ガス設備</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/">HAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/equipment/">ガス設備及び各種工事</a><span class="c-page-breadcrumbs__arrow">></span>ガス設備</div>
+        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/equipment/">ガス設備及び各種工事</a><br class="sp"><span class="c-page-breadcrumbs__arrow">></span>ガス設備</div>
       </div>
     </section>
 
@@ -46,6 +46,7 @@
         <div class="c-gas-conts">
           <div class="c-gas-conts--img">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/facility_conts03.jpg">
+            <div class="c-gas-conts--img__note">提供：大陽日酸(株)</div>
           </div>
           <div class="c-gas-conts--product">
             <div class="c-gas-conts--product__ttl">ガス発生装置による供給設備（PSA）</div>
@@ -62,7 +63,7 @@
           <tr><th><img src="<?php bloginfo('stylesheet_directory'); ?>/images/table_icon.png">大手重金属工業</th><td>ガス配管工事</td></tr>
           <tr><th><img src="<?php bloginfo('stylesheet_directory'); ?>/images/table_icon.png">食品加工会社</th><td>N2CE供給設備設計施工</td></tr>
         </table>
-        <div class="c-btn c-gas-btn"><a href="/equipment/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">ガス設備及び各種工事へ戻る</div></a></div>
+        <div class="c-btn c-gas-btn"><a href="/sample/equipment/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">ガス設備及び各種工事へ戻る</div></a></div>
       </section><? //.c-gas-wrap ?>
     </section><? //.c-gas ?>
   </div>

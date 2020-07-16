@@ -45,10 +45,16 @@
       &__belongs {
         font-size: 1.2rem;
         color: #fff;
-        background: $green;
+        background: #2d852d;
         text-align: center;
         width: fit-content;
         padding: 2px 4px;
+        @include mq(ie) {
+          width: 52px;
+        }
+        @include firefox {
+          width: 52px;
+        }
       }
       &__name {
         font-size: 2.4rem;
@@ -118,9 +124,10 @@
         padding: 50px 20px 1px;
       }
       &__ttl {
+        width: 100%;
         display: table;
         table-layout: fixed;
-        border-bottom: 1px solid $green;
+        border-bottom: 1px solid #b1d4a3;
         padding: 0 0 16px;
         @include mq(sp) {
           display: inherit;
@@ -196,6 +203,12 @@
         position: absolute;
         top: -32px;
         left: 63px;
+      }
+      @include mq(ie) {
+        width: 180px;
+      }
+      @include firefox {
+        width: 180px;
       }
     }
     &--subttl {

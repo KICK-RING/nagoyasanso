@@ -96,6 +96,9 @@
         width: calc(90% - 80px);
         margin: -40px auto 0;
         padding: 30px 40px 40px;
+        &__product a {
+          word-break: break-all;
+        }
       }
     }
   }

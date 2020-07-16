@@ -116,11 +116,17 @@
       &-belongs {
         font-size: 1.2rem;
         color: #fff;
-        background: $green;
+        background: #2d852d;
         text-align: center;
         width: fit-content;
         padding: 2px 4px;
         margin: 20px 0 0;
+        @include mq(ie) {
+          width: 52px;
+        }
+        @include firefox {
+          width: 52px;
+        }
       }
       &-name {
         font-size: 2.4rem;
@@ -186,6 +192,7 @@
         margin: 40px 0 0;
       }
       &-ttl {
+        width: 250px;
         color: #fff;
         font-size: 1.8rem;
         font-weight: 500;

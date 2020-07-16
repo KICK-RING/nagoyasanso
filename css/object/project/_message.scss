@@ -44,6 +44,9 @@
         font-size: 5rem;
         letter-spacing: 8px;
       }
+      @include firefox {
+        width: 470px;
+      }
     }
     &--subttl {
       font-size: 2.4rem;
@@ -51,6 +54,7 @@
       color: $brown;
       line-height: 2;
       margin: 46px 0 0;
+      letter-spacing: 4.5px;
       @include mq(sp) {
         font-size: 1.8rem;
         margin: 26px 0 0;

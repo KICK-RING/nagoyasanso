@@ -29,6 +29,9 @@
         content: url('../images/sp/protection.png');
       }
     }
+    @include firefox {
+      width: 550px;
+    }
   }
   &-wrap {
     position: relative;
@@ -130,6 +133,12 @@
       @include mq(sp) {
         display: inherit;
         width: auto;
+      }
+      @include mq(ie) {
+        width: $container;
+      }
+      @include firefox {
+        width: 1014px;
       }
     }
     &--text {

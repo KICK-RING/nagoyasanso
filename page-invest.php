@@ -8,9 +8,9 @@
       <div class="c-page-container">
         <div class="c-page-ttl">
           <div class="u-font-en c-page-ttl__main">FOR ANALYTICAL<br>RESEARCH</div>
-          <div class="c-page-ttl__sub">分析・研究用ガス</div>
+          <div class="c-page-ttl__sub"><h1>分析・研究用ガス</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/">HAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/indust_invest/">産業用ガス/分析・研究用ガス</a><span class="c-page-breadcrumbs__arrow">></span>分析・研究用ガス</div>
+        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/indust_invest/">産業用ガス/分析・研究用ガス</a><br class="sp"><span class="c-page-breadcrumbs__arrow">></span>分析・研究用ガス</div>
       </div>
     </section>
 
@@ -41,7 +41,7 @@
             </div>
           </div>
         </div>
-        <div class="c-btn c-gas-btn"><a href="/indust_invest/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">産業用ガス/分析・研究用ガスへ戻る</div></a></div>
+        <div class="c-btn c-gas-btn"><a href="/sample/indust_invest/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">産業用ガス/分析・研究用ガスへ戻る</div></a></div>
       </section><? //.c-gas-wrap ?>
     </section><? //.c-gas ?>
   </div>

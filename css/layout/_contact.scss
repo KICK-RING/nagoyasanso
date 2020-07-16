@@ -74,12 +74,18 @@
     }
   }
   &--btn {
-    background: #000;
+    background-image: linear-gradient(to right, #000 50%, $light_green 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: all .3s ease 0s;
     color: #fff;
     text-align: center;
     padding: 20px 0;
     margin: 30px 0 0;
     position: relative;
+    &:hover {
+      background-position: -100% 0;
+    }
     &:before {
       content: url('../images/mail_icon_green.png');
       position: absolute;

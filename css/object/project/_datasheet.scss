@@ -24,6 +24,12 @@
       top: -30px;
       left: 50px;
     }
+    @include mq(ie) {
+      width: 224px;
+    }
+    @include firefox {
+      width: 225px;
+    }
   }
   &-subttl {
     font-size: 2.1rem;
@@ -45,19 +51,21 @@
       vertical-align: middle;
     }
     @include mq(sp) {
-      width: 95%;
+      width: calc(95% - 60px);
       margin: 60px 0 0 5%;
       padding: 20px 40px 20px 20px;
       display: table;
       table-layout: fixed;
       &--text {
         display: table-cell;
-        // width: calc(100% - 133px);
       }
       &--img {
         display: table-cell;
         vertical-align: middle;
         width: 130px;
+        img {
+          margin: 0 0 0 87px;
+        }
       }
     }
   }

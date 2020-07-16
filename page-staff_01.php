@@ -8,9 +8,9 @@
       <div class="c-page-container">
         <div class="c-page-ttl">
           <div class="u-font-en c-page-ttl__main">STAFF</div>
-          <div class="c-page-ttl__sub">社員紹介</div>
+          <div class="c-page-ttl__sub"><h1>社員紹介</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/">HAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/recruit/">採用情報</a><span class="c-page-breadcrumbs__arrow">></span>社員紹介</div>
+        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/recruit/">採用情報</a><span class="c-page-breadcrumbs__arrow">></span>社員紹介</div>
       </div>
     </section>
 
@@ -183,7 +183,7 @@
       </div>
     </section>
     <div class="p-staff-btn__bg">
-      <div class="c-btn c-gas-btn p-staff-btn"><a href="/recruit/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">採用情報へ戻る</div></a></div>
+      <div class="c-btn c-gas-btn p-staff-btn"><a href="/sample/recruit/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">採用情報へ戻る</div></a></div>
     </div>
   </div>
 <?php get_template_part('contact'); ?>

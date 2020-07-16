@@ -12,6 +12,7 @@ body{
   font-family: "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 1.6rem;
   font-weight: normal;
+  overflow-x: hidden;
 }
 .clearfix {
   min-height: 1px;
@@ -36,6 +37,25 @@ img {
 }
 .pc {
   display: none!important;
+}
+
+/* iphone submit css reset */
+input[type="submit"],
+input[type="button"] {
+  border-radius: 10px;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+  outline-offset: -2px;
 }
 
 @media screen and (min-width: $mediaM-) {

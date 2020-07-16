@@ -8,9 +8,9 @@
       <div class="c-page-container">
         <div class="c-page-ttl">
           <div class="u-font-en c-page-ttl__main">STAFF</div>
-          <div class="c-page-ttl__sub">社員紹介</div>
+          <div class="c-page-ttl__sub"><h1>社員紹介</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/">HAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/recruit/">採用情報</a><span class="c-page-breadcrumbs__arrow">></span>社員紹介</div>
+        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/recruit/">採用情報</a><span class="c-page-breadcrumbs__arrow">></span>社員紹介</div>
       </div>
     </section>
 
@@ -80,8 +80,7 @@
           <div class="p-staff-faq--conts__answer">
             残業が少なく休日出勤もないので、プライベートな時間がとりやすく、<br>
             平日、休日問わず、好きなことをする時間が持てるところ。<br>
-            また、プライベートでも先輩や同僚と共有して時間を過ごすこともあるので、<br>
-            職場の雰囲気はいいと思います。
+            また、プライベートでも先輩や同僚と共有して時間を過ごすこともあるので、職場の雰囲気はいいと思います。
           </div>
           <div class="p-staff-faq--conts__ttl">
             <div class="p-staff-faq--conts__icon"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/question05.png"></div>
@@ -201,7 +200,7 @@
       </div>
     </section>
     <div class="p-staff-btn__bg">
-      <div class="c-btn c-gas-btn p-staff-btn"><a href="/recruit/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">採用情報へ戻る</div></a></div>
+      <div class="c-btn c-gas-btn p-staff-btn"><a href="/sample/recruit/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">採用情報へ戻る</div></a></div>
     </div>
   </div>
 <?php get_template_part('contact'); ?>

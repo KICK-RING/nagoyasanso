@@ -3,6 +3,7 @@
   &-wrap {
     background: #151815;
     padding: 80px 0 0;
+    position: relative;
     @include mq(sp) {
       padding: 60px 0 0;
     }
@@ -46,6 +47,10 @@
       font-size: 1.4rem;
       padding: 18px;
       margin: 24px 0 0;
+      transition: .5s;
+      &:hover {
+        background: $light_green;
+      }
       @include mq(sp) {
         margin: 24px 0 60px;
       }
@@ -134,6 +139,9 @@
       img {
         width: 20px;
       }
+      @include mq(sp) {
+        width: calc(100% - 100px);
+      }
     }
     &--copy {
       margin: 0 0 0 auto;
@@ -142,5 +150,12 @@
         display: block;
       }
     }
+  }
+
+  &-totop {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
   }
 } //.l-footer

@@ -8,9 +8,9 @@
       <div class="c-page-container">
         <div class="c-page-ttl">
           <div class="u-font-en c-page-ttl__main">SAFETY DATA SHEET</div>
-          <div class="c-page-ttl__sub">安全データシート</div>
+          <div class="c-page-ttl__sub"><h1>安全データシート</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/">HAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>安全データシート</div>
+        <div class="c-page-breadcrumbs"><a href="/sample/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>安全データシート</div>
       </div>
     </section>
 
@@ -30,6 +30,7 @@
         <section class="p-datasheet-wrap">
           <div class="u-font-en p-datasheet-ttl">SHEET LIST</div>
           <div class="p-datasheet-subttl">シート一覧</div>
+          <a href="#"><div class="p-datasheet-cont"><span class="p-datasheet-cont--text">酸素ガス</span><span class="p-datasheet-cont--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pdf.png"></span></div></a>
           <a href="#"><div class="p-datasheet-cont"><span class="p-datasheet-cont--text">窒素ガス</span><span class="p-datasheet-cont--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pdf.png"></span></div></a>
           <a href="#"><div class="p-datasheet-cont"><span class="p-datasheet-cont--text">高純度窒素ガス</span><span class="p-datasheet-cont--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pdf.png"></span></div></a>
           <a href="#"><div class="p-datasheet-cont"><span class="p-datasheet-cont--text">窒素＋酸素の混合ガス（非支燃焼）</span><span class="p-datasheet-cont--img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/pdf.png"></span></div></a>

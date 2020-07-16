@@ -8,9 +8,9 @@
       <div class="c-page-container">
         <div class="c-page-ttl">
           <div class="u-font-en c-page-ttl__main">INDUSTRIAL<br>GASES</div>
-          <div class="c-page-ttl__sub">産業用ガス/分析・研究用ガス</div>
+          <div class="c-page-ttl__sub"><h1>産業用ガス/分析・研究用ガス</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/">HAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>産業用ガス/分析・研究用ガス</div>
+        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>産業用ガス/分析・研究用ガス</div>
       </div>
     </section>
 
@@ -53,7 +53,7 @@
           <div class="c-service-cont--item">
             <div class="c-service-cont--item__ttl">取扱い商品</div>
             <div class="c-service-cont--item__product">酸素/窒素/アルゴン/炭酸/アセチレン/水素/ヘリウム/アンモニア/プロパン/亜酸化窒素/圧縮空気/アルゴン＋酸素/アルゴン＋炭酸/レーザーガス</div>
-            <div class="c-btn"><a href="/indust/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
+            <div class="c-btn"><a href="/sample/indust/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
           </div>
         </div>
         <div class="c-service-cont c-service-cont__even">
@@ -68,7 +68,7 @@
           <div class="c-service-cont--item">
             <div class="c-service-cont--item__ttl">取扱い商品</div>
             <div class="c-service-cont--item__product">純ガス/標準ガス</div>
-            <div class="c-btn"><a href="/invest/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
+            <div class="c-btn"><a href="/sample/invest/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
           </div>
         </div>
       </section>

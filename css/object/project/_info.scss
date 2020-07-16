@@ -24,6 +24,12 @@
         left: 78px;
       }
     }
+    @include mq(ie) {
+      width: 358px;
+    }
+    @include firefox {
+      width: 360px;
+    }
   }
   &-subttl {
     font-size: 2.1rem;

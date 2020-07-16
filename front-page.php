@@ -101,7 +101,7 @@
   <section class="p-top-service" id="service">
     <div class="p-top-service--icon"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service_icon.png"></div>
     <div class="u-center"><div class="p-top-service--ttl u-font-en">SERVICES</div></div>
-    <div class="p-top-service--subttl">取り扱い商品</div>
+    <div class="p-top-service--subttl">取扱い商品</div>
     <div class="p-top-service--copy">
       酸素や炭酸ガス・高圧ガスなどの製造・販売から工場などで使われる溶接・溶断機械や材料類、<br class="pc">
       産業ロボットなどの販売も展開しています。<br>
@@ -110,7 +110,7 @@
     <div class="p-top-service--wrap">
       <div class="p-top-service--cont">
         <div class="p-top-service--cont__img">
-          <a href="/indust_invest/">
+          <a href="/sample/indust_invest/">
             <picture>
               <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service01.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service01.png">
@@ -121,7 +121,7 @@
       </div>
       <div class="p-top-service--cont">
         <div class="p-top-service--cont__img">
-          <a href="/medical/">
+          <a href="/sample/medical/">
             <picture>
               <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service02.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service02.png">
@@ -132,7 +132,7 @@
       </div>
       <div class="p-top-service--cont">
         <div class="p-top-service--cont__img">
-          <a href="/welding/">
+          <a href="/sample/welding/">
             <picture>
               <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service03.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service03.png">
@@ -143,7 +143,7 @@
       </div>
       <div class="p-top-service--cont">
         <div class="p-top-service--cont__img">
-          <a href="/equipment/">
+          <a href="/sample/equipment/">
             <picture>
               <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service04.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service04.png">
@@ -196,7 +196,7 @@
             endif;
           ?>
         </div>
-        <div class="c-btn p-top-topics--btn"><a href="/info/" class="c-btn__hover"><div class="c-btn__text p-top-topics--btn__text">お知らせ一覧</div></a></div>
+        <div class="c-btn p-top-topics--btn"><a href="/sample/info/" class="c-btn__hover"><div class="c-btn__text p-top-topics--btn__text">お知らせ一覧</div></a></div>
       </div>
     </div>
   </section>
@@ -220,7 +220,7 @@
           中途入社のハンディはなく、実務を早く覚えていただけるよう<br class="pc">
           に現場・会社でバックアップをしていきます。
         </div>
-        <div class="c-btn p-top-recruit--btn"><a href="/recruit/" class="c-btn__hover"><div class="c-btn__text">採用情報を詳しく見る</div></a></div>
+        <div class="c-btn p-top-recruit--btn"><a href="/sample/recruit/" class="c-btn__hover"><div class="c-btn__text">採用情報を詳しく見る</div></a></div>
       </div>
     </div>
   </section>
