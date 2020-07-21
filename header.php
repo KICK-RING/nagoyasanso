@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/reset.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/lightbox.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/default.css?2020071512">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico"/>
     <link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/images/webclip.jpg" />
@@ -66,6 +67,25 @@
       <?php endif; ?>
     ">
     <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/images/ogp.jpg">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171450358-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-171450358-1');
+
+     $(window).on("load", function(){
+                   setTimeout(function(){
+
+                 $('a[href^="tel:"]').on("click", function(){
+                   gtag('event', 'click', {'event_category': 'tel','event_label': window.location.href, 'value': '1'});
+                 });
+                }, 1000);
+              });
+    </script>
     <?php wp_head(); ?>
   </head>
 

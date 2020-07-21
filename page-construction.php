@@ -19,7 +19,7 @@
         <div class="u-font-en c-gas-ttl">PRODUCT LIST</div>
         <div class="c-gas-subttl">商品一覧</div>
         <div class="c-gas-conts">
-          <div class="c-gas-conts--img">
+          <div class="c-gas-conts--img c-gas-conts--img__large">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/construction_conts01.jpg">
           </div>
           <div class="c-gas-conts--product">

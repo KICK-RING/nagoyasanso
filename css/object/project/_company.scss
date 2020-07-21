@@ -10,10 +10,19 @@
     position: relative;
     line-height: 1.3;
     @include mq(sp) {
-        padding-left: 5%;
-        padding-right: 5%;
-        font-size: 4rem;
-      }
+      padding-left: 5%;
+      padding-right: 5%;
+      font-size: 4rem;
+    }
+    @include mq(ie) {
+      width: 370px;
+    }
+    @include firefox() {
+      width: 370px;
+    }
+    @include edge() {
+      width: 370px;
+    }
     &:after {
       position: absolute;
       bottom: -7px;
@@ -103,6 +112,15 @@
           top: -23px;
           right: -16px;
         }
+        @include mq(ie) {
+          width: 150px;
+        }
+        @include firefox() {
+          width: 150px;
+        }
+        @include edge() {
+          width: 150px;
+        }
       }
       &__sub {
         width: fit-content;
@@ -110,6 +128,15 @@
         font-size: 1.8rem;
         color: #fff;
         letter-spacing: 4px;
+        @include mq(ie) {
+          width: 220px;
+        }
+        @include firefox() {
+          width: 220px;
+        }
+        @include edge() {
+          width: 220px;
+        }
       }
     }
     &--wrap {
@@ -122,6 +149,9 @@
       margin: 0 auto;
       background: #fff;
       padding: 60px 0 80px;
+      @include mq(sp) {
+        width: 90%;
+      }
       &--img {
         width: 817px;
         margin: 0 auto;
@@ -133,6 +163,22 @@
           font-size: 2.4rem;
           font-weight: 600;
           color: #3b2c2c;
+        }
+        @include mq(sp) {
+          width: 90%;
+          &__text {
+            position: inherit;
+            top: 0;
+            right: 0;
+            text-align: center;
+            line-height: 2;
+            margin: 0 0 20px;
+          }
+          img {
+            max-width: 302px;
+            margin: 0 auto;
+            display: block;
+          }
         }
       }
       &--items {
@@ -153,6 +199,9 @@
           &-disc {
 
           }
+        }
+        @include mq(sp) {
+          display: none;
         }
       }
     }
@@ -317,7 +366,7 @@
       margin: 20px 0 0;
       margin-top: 0;
       @include mq(sp) {
-          padding-top: 390px;
+          padding-top: 200px;
           background: #f3f4f1;
       }
       &--visual {
@@ -437,8 +486,8 @@
     padding: 60px 0 80px;
     height: 2550px;
     @include mq(sp) {
-          height: auto;
-            padding: 60px 0 460px;
+        height: auto;
+        padding: 60px 0 280px;
       }
     &--ttl {
       color: #fff;
@@ -452,6 +501,15 @@
         position: absolute;
         top: -33px;
         left: 26px;
+      }
+      @include mq(ie) {
+        width: 150px;
+      }
+      @include firefox() {
+        width: 150px;
+      }
+      @include edge() {
+        width: 150px;
       }
     }
     &--subttl {
@@ -644,25 +702,29 @@
              padding-top:  150px;
              padding-bottom: 250px;
              @include mq(sp) {
-             padding-top:  0px;
-                 margin-left: 5%;
-                 margin-right: 5%;
+               padding: 0 0 10px;
+               margin-left: 5%;
+               margin-right: 5%;
              }
            }
           &__wrap {
            background: #f3f4f1;
            display: flex;
            @include mq(sp) {
-               display: block;
+             display: block;
            }
            &__block {
              width: 30.2%;
              margin-right: 5.3%;
              @include mq(sp) {
-                 width: 100%;
+               width: 100%;
+               margin: 0 0 40px;
              }
              &:last-child {
-                 padding-bottom: 8%;
+               padding-bottom: 8%;
+               @include mq(sp) {
+                 padding-bottom: 0;
+               }
              }
              &.right {
                  margin-right: 0%;
@@ -694,6 +756,7 @@
       height: 262px;
       padding-left: 5%;
       padding-right: 5%;
+      padding-bottom: 60px;
     }
     > div {
       background: #fff;

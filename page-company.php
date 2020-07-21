@@ -43,11 +43,11 @@
       <div class="p-company-copy--wrap">
         <div class="p-company-copy--conts">
           <div class="p-company-copy--conts--img">
+            <div class="p-company-copy--conts--img__text">お客様の未来を創造する<br>名古屋酸素の「三本の矢」</div>
             <picture>
-              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/company_copy_cont01.jpg">
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/company_copy_cont01.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_copy_cont01.jpg">
             </picture>
-            <div class="p-company-copy--conts--img__text">お客様の未来を創造する<br>名古屋酸素の「三本の矢」</div>
           </div>
           <div class="p-company-copy--conts--items">
             <div class="p-company-copy--conts--items__icon"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_copy_inner01.jpg"></div>
@@ -74,51 +74,6 @@
       </div>
       <div class="p-company-copy--bg"></bg>
     </section>
-
-    <? /*
-    <section class="p-company-copy">
-        <div class="p-company-copy--bg"></div>
-        <div class="p-company-copy--wrap">
-          <div class="u-font-en p-company-copy--ttl">PRODUCT</div>
-          <div class="u-font-en p-company-copy--text">わたしたちにできる事</div>
-        </div>
-      <div class="l-container">
-          <div class="p-company-copy--conts">
-              <div class="p-company-copy--conts__txt">お客様の未来を創造する<br>名古屋酸素の「三本の矢」</div>
-              <div class="p-company-copy--conts__img">
-                  <picture>
-                    <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/company_copy_cont01.jpg">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_copy_cont01.jpg">
-                  </picture>
-              </div>
-              <div class="p-company-copy--conts__inner">
-                 <div class="p-company-copy--conts__inner__line"></div>
-                  <div class="p-company-copy--conts__inner__list">
-                      <div class="p-company-copy--conts__inner__list__img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_copy_inner01.jpg" alt=""></div>
-                      <div class="p-company-copy--conts__inner__list__txt">
-                          <div class="p-company-copy--conts__inner__list__txt__title">スピーディな納品</div>
-                          <div class="p-company-copy--conts__inner__list__txt__conts">地区最大級のガス充填量を誇る自社工場や倉庫があり、素早い納期対応を可能としております</div>
-                      </div>
-                  </div>
-                  <div class="p-company-copy--conts__inner__list">
-                      <div class="p-company-copy--conts__inner__list__img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_copy_inner02.jpg" alt=""></div>
-                      <div class="p-company-copy--conts__inner__list__txt">
-                          <div class="p-company-copy--conts__inner__list__txt__title">軽快なフットワーク</div>
-                          <div class="p-company-copy--conts__inner__list__txt__conts">地元密着型の営業活動によりお客様からのご依頼に迅速に対応いたします</div>
-                      </div>
-                  </div>
-                  <div class="p-company-copy--conts__inner__list">
-                      <div class="p-company-copy--conts__inner__list__img"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_copy_inner03.jpg" alt=""></div>
-                      <div class="p-company-copy--conts__inner__list__txt">
-                          <div class="p-company-copy--conts__inner__list__txt__title">100年のノウハウ</div>
-                          <div class="p-company-copy--conts__inner__list__txt__conts">老舗企業として積み重ねた実績で、お客様に最適な提案を行います</div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </section>
-    */ ?>
 
     <section class="p-company-overview">
         <div class="p-company-overview--visual">
@@ -368,7 +323,10 @@
             </picture>
           </div>
           <div class="p-company-history--conts--work">創業１００周年</div>
-          <div class="p-company-history--conts--img"><a href=""><img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history01.jpg"></a></div>
+          <div class="p-company-history--conts--img">
+            <a href="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_item01.jpg" rel="lightbox[group]"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history01.jpg"></a>
+            <a href="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_item02.jpg" rel="lightbox[group]"></a>
+          </div>
         </div>
       </div>
     </section>

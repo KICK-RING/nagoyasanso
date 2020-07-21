@@ -44,7 +44,13 @@
         font-size: 5rem;
         letter-spacing: 8px;
       }
-      @include firefox {
+      @include mq(ie) {
+        width: 470px;
+      }
+      @include firefox() {
+        width: 470px;
+      }
+      @include edge() {
         width: 470px;
       }
     }

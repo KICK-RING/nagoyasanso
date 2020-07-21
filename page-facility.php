@@ -19,8 +19,11 @@
         <div class="u-font-en c-gas-ttl">PRODUCT LIST</div>
         <div class="c-gas-subttl">商品一覧</div>
         <div class="c-gas-conts">
-          <div class="c-gas-conts--img">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/facility_conts01.jpg">
+          <div class="c-gas-conts--img c-gas-conts--img__large">
+            <picture>
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/facility_conts01.jpg">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/facility_conts01.jpg">
+            </picture>
           </div>
           <div class="c-gas-conts--product">
             <div class="c-gas-conts--product__ttl">シリンダー容器・ＬＧＣ供給設備(カードル製作・集合装置)</div>
@@ -33,8 +36,11 @@
           </div>
         </div>
         <div class="c-gas-conts">
-          <div class="c-gas-conts--img">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/facility_conts02.jpg">
+          <div class="c-gas-conts--img c-gas-conts--img__large">
+            <picture>
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/facility_conts02.jpg">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/facility_conts02.jpg">
+            </picture>
           </div>
           <div class="c-gas-conts--product">
             <div class="c-gas-conts--product__ttl">タンクローリー供給による液化ガス設備（ＣＥ供給設備）</div>
@@ -44,8 +50,11 @@
           </div>
         </div>
         <div class="c-gas-conts">
-          <div class="c-gas-conts--img">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/facility_conts03.jpg">
+          <div class="c-gas-conts--img c-gas-conts--img__large">
+            <picture>
+              <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/facility_conts03.jpg">
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/facility_conts03.jpg">
+            </picture>
             <div class="c-gas-conts--img__note">提供：大陽日酸(株)</div>
           </div>
           <div class="c-gas-conts--product">

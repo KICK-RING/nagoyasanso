@@ -27,7 +27,10 @@
     @include mq(ie) {
       width: 358px;
     }
-    @include firefox {
+    @include firefox() {
+      width: 360px;
+    }
+    @include edge() {
       width: 360px;
     }
   }

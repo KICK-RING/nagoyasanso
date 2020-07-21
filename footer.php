@@ -110,25 +110,10 @@
       <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/slider.js"></script>
       <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/header.js"></script>
     <?php endif; ?>
+    <?php if(is_page('company')){ ?>
+      <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/lightbox.js"></script>
+    <?php } ?>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/scroll.js"></script>
     <script src="//yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171450358-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-171450358-1');
-
-     $(window).on("load", function(){
-                   setTimeout(function(){
-
-                 $('a[href^="tel:"]').on("click", function(){
-                   gtag('event', 'click', {'event_category': 'tel','event_label': window.location.href, 'value': '1'});
-                 });
-                }, 1000);
-              });
-    </script>
   </body>
 </html>

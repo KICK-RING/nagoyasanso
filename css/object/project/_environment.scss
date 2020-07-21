@@ -29,7 +29,13 @@
         content: url('../images/sp/protection.png');
       }
     }
-    @include firefox {
+    @include mq(ie) {
+      width: 550px;
+    }
+    @include firefox() {
+      width: 550px;
+    }
+    @include edge() {
       width: 550px;
     }
   }
@@ -137,7 +143,10 @@
       @include mq(ie) {
         width: $container;
       }
-      @include firefox {
+      @include firefox() {
+        width: 1014px;
+      }
+      @include edge() {
         width: 1014px;
       }
     }

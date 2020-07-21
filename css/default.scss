@@ -6,9 +6,11 @@
 // Foundation
 // ==============================================================
 @import "foundation/variable/_variable";
-@import "foundation/function/_function";
-@import "foundation/function/_responsive";
 @import "foundation/mixin/_mixin";
+@import "foundation/function/_responsive";
+@import "foundation/function/_function";
+
+// @import "foundation/vendor-extension/_lightbox";
 
 // ==============================================================
 // Layout

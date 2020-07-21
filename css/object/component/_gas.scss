@@ -43,11 +43,17 @@
         width: 492px;
       }
     }
-    @include firefox {
+    @include firefox() {
       width: 287px;
       &__results {
         width: 492px;
       }
+    }
+    @include edge() {
+      width: 287px;
+      &__results {
+        width: 492px;
+      }      
     }
   }
   &-subttl {
@@ -93,6 +99,11 @@
         &__note {
           width: 300px;
           margin: 0 auto;
+        }
+      }
+      &__large {
+        img {
+          width: 300px;
         }
       }
     }

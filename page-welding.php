@@ -7,7 +7,8 @@
       </picture>
       <div class="c-page-container">
         <div class="c-page-ttl c-page-ttl__long">
-          <div class="u-font-en c-page-ttl__main">WELDING<br>INDUSTRIAL MACHINERY</div>
+          <div class="u-font-en c-page-ttl__main pc">WELDING<br>INDUSTRIAL MACHINERY</div>
+          <div class="u-font-en c-page-ttl__main sp">WELDING<br>INDUSTRIAL<br>MACHINERY</div>
           <div class="c-page-ttl__sub"><h1>溶接・産業機器関連</h1></div>
         </div>
         <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>溶接・産業機器関連</div>
