@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">MEDICAL</div>
           <div class="c-page-ttl__sub"><h1>医療用ガス</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>医療用ガス</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>医療用ガス</div>
       </div>
     </section>
 
@@ -47,7 +47,7 @@
           <div class="c-service-cont--item">
             <div class="c-service-cont--item__ttl">取扱い商品</div>
             <div class="c-service-cont--item__product">酸素/窒素/二酸化炭素/亜酸化窒素</div>
-            <div class="c-btn"><a href="/sample/medical_detail/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
+            <div class="c-btn"><a href="/medical_detail/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
           </div>
         </div>
       </section>

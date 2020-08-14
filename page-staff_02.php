@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">STAFF</div>
           <div class="c-page-ttl__sub"><h1>社員紹介</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/recruit/">採用情報</a><span class="c-page-breadcrumbs__arrow">></span>社員紹介</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/recruit/">採用情報</a><span class="c-page-breadcrumbs__arrow">></span>社員紹介</div>
       </div>
     </section>
 
@@ -44,28 +44,21 @@
             <div class="p-staff-faq--conts__question">名古屋酸素に入社する決め手となったポイントや出来事は何ですか？</div>
           </div>
           <div class="p-staff-faq--conts__answer">
-            勤務先としてみたとき創業年数が他社より格段に長いこと、<br>
-            それに伴い、地盤がしっかりしているだろうと思うこともあり、<br>
-            自分がやりたいと思っていた事務職の仕事であったので、<br>
-            面接を受けることをきめました。
+            勤務先としてみたとき創業年数が他社より格段に長いこと、<br class="pc">それに伴い、地盤がしっかりしているだろうと思うこともあり、<br class="pc">自分がやりたいと思っていた事務職の仕事であったので、<br class="pc">面接を受けることをきめました。
           </div>
           <div class="p-staff-faq--conts__ttl">
             <div class="p-staff-faq--conts__icon"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/question02.png"></div>
             <div class="p-staff-faq--conts__question">実際に入社した感想を教えてください。</div>
           </div>
           <div class="p-staff-faq--conts__answer">
-            社会人として初めて働くのもあって、<br>
-            右も左もわからないなか、やさしく接してくれる人が多く、<br>
-            すぐ仕事に取り組むことができ、いろいろな経験ができました。
+            社会人として初めて働くのもあって、<br class="pc">右も左もわからないなか、やさしく接してくれる人が多く、<br class="pc">すぐ仕事に取り組むことができ、いろいろな経験ができました。
           </div>
           <div class="p-staff-faq--conts__ttl">
             <div class="p-staff-faq--conts__icon"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/question03.png"></div>
             <div class="p-staff-faq--conts__question">あなたが考える名古屋酸素の特徴は何ですか？</div>
           </div>
           <div class="p-staff-faq--conts__answer">
-            創業年数が長いこともあり、大小さまざまなお客様<br>
-            また、メーカーとのつながりがあり<br>
-            その一つ一つを大事にしているところ。<br>
+            創業年数が長いこともあり、大小さまざまなお客様<br class="pc">また、メーカーとのつながりがあり<br class="pc">その一つ一つを大事にしているところ。<br>
             また、社長が陣頭指揮を執り会社の方向性を示しているところ。
           </div>
         </div><? //.p-staff-faq--conts ?>
@@ -78,23 +71,19 @@
             <div class="p-staff-faq--conts__question">名古屋酸素の好きなところを教えてください。</div>
           </div>
           <div class="p-staff-faq--conts__answer">
-            残業が少なく休日出勤もないので、プライベートな時間がとりやすく、<br>
-            平日、休日問わず、好きなことをする時間が持てるところ。<br>
+            残業が少なく休日出勤もないので、プライベートな時間がとりやすく、<br class="pc">平日、休日問わず、好きなことをする時間が持てるところ。<br>
             また、プライベートでも先輩や同僚と共有して時間を過ごすこともあるので、職場の雰囲気はいいと思います。
           </div>
           <div class="p-staff-faq--conts__ttl">
             <div class="p-staff-faq--conts__icon"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/question05.png"></div>
             <div class="p-staff-faq--conts__question">
-              あなたが現在行っている業務について、面白い部分や<br class="pc">
-              難しい部分などを教えてください。
+              あなたが現在行っている業務について、面白い部分や<br class="pc">難しい部分などを教えてください。
             </div>
           </div>
           <div class="p-staff-faq--conts__answer">
             おもしろいところは、日々の仕事の中で新たな知識（例えば、ボンベの不具合に対しての対処法や取り扱い方法など）を身に付けることにより次の仕事に活かせること。<br>
-            また、事務職ではあるのですが、いろいろなお客様と接する機会が多く、<br>
-            注文されたことに対しての達成感があるところ。<br>
-            難しいところは、業務時間外での注文や注文日当日の配送を受けた時<br>
-            の納期調整が難しいところです。
+            また、事務職ではあるのですが、いろいろなお客様と接する機会が多く、<br class="pc">注文されたことに対しての達成感があるところ。<br>
+            難しいところは、業務時間外での注文や注文日当日の配送を受けた時<br class="pc">の納期調整が難しいところです。
           </div>
           <div class="p-staff-faq--conts__ttl">
             <div class="p-staff-faq--conts__icon"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/question06.png"></div>
@@ -200,7 +189,7 @@
       </div>
     </section>
     <div class="p-staff-btn__bg">
-      <div class="c-btn c-gas-btn p-staff-btn"><a href="/sample/recruit/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">採用情報へ戻る</div></a></div>
+      <div class="c-btn c-gas-btn p-staff-btn"><a href="/recruit/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">採用情報へ戻る</div></a></div>
     </div>
   </div>
 <?php get_template_part('contact'); ?>

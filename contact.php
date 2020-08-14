@@ -16,7 +16,7 @@
             <div class="l-contact--tel-detal__time">受付時間／08:30-17:00<br class="sp">（日曜・祝日定休）</div>
           </div>
         </div>
-        <a href="/sample/contact/"><div class="l-contact--btn"><img class="sp" src="<?php bloginfo('stylesheet_directory'); ?>/images/mail_icon_green.png">メールフォームからお問い合わせ</div></a>
+        <a href="/contact/"><div class="l-contact--btn"><img class="sp" src="<?php bloginfo('stylesheet_directory'); ?>/images/mail_icon_green.png">メールフォームからお問い合わせ</div></a>
       </div>
     </div>
   </div>

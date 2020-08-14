@@ -29,4 +29,13 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+  &__white {
+    color: #fff;
+    &:before {
+      background: #fff;
+    }
+    &:after {
+      border-top: 1px solid #fff;
+    }
+  }
 }

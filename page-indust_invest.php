@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">INDUSTRIAL<br>GASES</div>
           <div class="c-page-ttl__sub"><h1>産業用ガス/分析・研究用ガス</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>産業用ガス/分析・研究用ガス</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>産業用ガス/分析・研究用ガス</div>
       </div>
     </section>
 
@@ -21,15 +21,11 @@
           【ガス】と聞いて、みなさんは何をイメージされますか？<br>
           広く知られているものとしては、プロパンガスなどの家庭で使用する【ガス】が有名です。<br>
           しかし、みなさんの実感以上に、身近な暮らしは様々な【ガス】によって支えられています。<br>
-          例えば、袋詰めされた食料品には酸化防止剤として「窒素」ガスが使用されていたり、<br class="pc">
-          健康や美容に効果があるとされる炭酸泉も、実は「二酸化炭素」ガスを使用することにより<br class="pc">
-          スーパー銭湯などで人工的に作られています。<br>
-          このように、目には見えない【ガス】の存在がみなさんの身近な暮らしを、<br class="pc">
-          さらには日本の産業全体を支える重要な役割を担っています。<br>
+          例えば、袋詰めされた食料品には酸化防止剤として「窒素」ガスが使用されていたり、<br class="pc">健康や美容に効果があるとされる炭酸泉も、実は「二酸化炭素」ガスを使用することにより<br class="pc">スーパー銭湯などで人工的に作られています。<br>
+          このように、目には見えない【ガス】の存在がみなさんの身近な暮らしを、<br class="pc">さらには日本の産業全体を支える重要な役割を担っています。<br>
           私たちは、現代社会において必要不可欠な【ガス】をお客様へ安心・安定的に供給することで<br class="pc">
           産業の発展に寄与してまいりました。<br>
-          今後も、これまで培ってきたノウハウを活かし、より一層お客様に身近に感じていただける<br class="pc">
-          サポーターであり続けてまいります。
+          今後も、これまで培ってきたノウハウを活かし、より一層お客様に身近に感じていただける<br class="pc">サポーターであり続けてまいります。
         </div>
       </section>
 
@@ -53,7 +49,7 @@
           <div class="c-service-cont--item">
             <div class="c-service-cont--item__ttl">取扱い商品</div>
             <div class="c-service-cont--item__product">酸素/窒素/アルゴン/炭酸/アセチレン/水素/ヘリウム/アンモニア/プロパン/亜酸化窒素/圧縮空気/アルゴン＋酸素/アルゴン＋炭酸/レーザーガス</div>
-            <div class="c-btn"><a href="/sample/indust/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
+            <div class="c-btn"><a href="/indust/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
           </div>
         </div>
         <div class="c-service-cont c-service-cont__even">
@@ -68,7 +64,7 @@
           <div class="c-service-cont--item">
             <div class="c-service-cont--item__ttl">取扱い商品</div>
             <div class="c-service-cont--item__product">純ガス/標準ガス</div>
-            <div class="c-btn"><a href="/sample/invest/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
+            <div class="c-btn"><a href="/invest/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
           </div>
         </div>
       </section>

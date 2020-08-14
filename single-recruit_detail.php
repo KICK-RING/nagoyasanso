@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">RECRUIT</div>
           <div class="c-page-ttl__sub"><h1>募集要項</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/recruit/">採用情報</a><span class="c-page-breadcrumbs__arrow">></span>募集要項</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/recruit/">採用情報</a><span class="c-page-breadcrumbs__arrow">></span>募集要項</div>
       </div>
     </section>
 
@@ -82,7 +82,7 @@
             </div>
           <?php endif;?>
         </div><? //.p-recruit_detail-wrap--conts ?>
-        <div class="c-btn p-recruit_detail-btn"><a href="/sample/recruit/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">採用情報へ戻る</div></a></div>
+        <div class="c-btn p-recruit_detail-btn"><a href="/recruit/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">採用情報へ戻る</div></a></div>
       </section>
 
       <section class="p-recruit_detail-contact">
@@ -106,7 +106,7 @@
               </div>
             </div>
             <div class="h-adr">
-              <?php echo do_shortcode('[mwform_formkey key="69"]'); ?><? // 69 58 //?>
+              <?php echo do_shortcode('[mwform_formkey key="72"]'); ?><? // 72 69(test) 58(local) //?>
             </div>
           </div>
         </div>

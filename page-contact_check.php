@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">CONTACT</div>
           <div class="c-page-ttl__sub"><h1>お問い合わせ</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>お問い合わせ</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>お問い合わせ</div>
       </div>
     </section>
 
@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="h-adr">
-            <?php echo do_shortcode('[mwform_formkey key=68]'); ?><?// 68 84 //?>
+            <?php echo do_shortcode('[mwform_formkey key=73]'); ?><?// 73 68(test) 84(local) //?>
           </div>
         </div>
       </div>

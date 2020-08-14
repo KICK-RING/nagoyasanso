@@ -686,6 +686,18 @@ input[type="button"]::focus {
   transform: rotate(45deg);
 }
 
+.u-arrow__white {
+  color: #fff;
+}
+
+.u-arrow__white:before {
+  background: #fff;
+}
+
+.u-arrow__white:after {
+  border-top: 1px solid #fff;
+}
+
 .c-btn {
   width: 250px;
   text-align: center;
@@ -1520,6 +1532,7 @@ input[type="number"] {
 
 @media screen and (max-width: 767px) {
   .p-top-visual--slider__number {
+    display: none;
     top: 48.7%;
     left: 15%;
   }
@@ -1543,6 +1556,7 @@ input[type="number"] {
 
 @media screen and (max-width: 767px) {
   .p-top-visual--slider-arrow {
+    display: none !important;
     top: 50%;
   }
   .p-top-visual--slider-arrow__prev {
@@ -1795,6 +1809,10 @@ input[type="number"] {
   text-align: center;
   color: #fff;
   font-size: 1.8rem;
+}
+
+.p-top-service--cont__text:hover .u-arrow {
+  margin: 0 0 0 20px;
 }
 
 @media screen and (max-width: 767px) {

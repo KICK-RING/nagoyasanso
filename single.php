@@ -10,7 +10,7 @@
         <div class="u-font-en c-page-ttl__main">INFORMATION</div>
         <div class="c-page-ttl__sub"><h1>お知らせ</h1></div>
       </div>
-      <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/info/">お知らせ</a><span class="c-page-breadcrumbs__arrow">></span>お知らせ詳細</div>
+      <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/info/">お知らせ</a><span class="c-page-breadcrumbs__arrow">></span>お知らせ詳細</div>
     </div>
   </section>
 
@@ -24,7 +24,7 @@
         <div class="p-info_detail-ttl"><?php the_title(); ?></div>
         <div class="p-info_detail-cont"><?php the_content(); ?></div>
       </div>
-      <div class="c-btn p-info_detail-btn"><a href="/sample/info/" class="c-btn__hover"><div class="c-btn__text">一覧へ戻る</div></a></div>
+      <div class="c-btn p-info_detail-btn"><a href="/info/" class="c-btn__hover"><div class="c-btn__text">一覧へ戻る</div></a></div>
     </section>
   </section>
 

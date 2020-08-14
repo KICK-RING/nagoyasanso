@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">GAS EQUIPMENT</div>
           <div class="c-page-ttl__sub"><h1>ガス設備</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/equipment/">ガス設備及び各種工事</a><br class="sp"><span class="c-page-breadcrumbs__arrow">></span>ガス設備</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/equipment/">ガス設備及び各種工事</a><br class="sp"><span class="c-page-breadcrumbs__arrow">></span>ガス設備</div>
       </div>
     </section>
 
@@ -72,7 +72,7 @@
           <tr><th><img src="<?php bloginfo('stylesheet_directory'); ?>/images/table_icon.png">大手重金属工業</th><td>ガス配管工事</td></tr>
           <tr><th><img src="<?php bloginfo('stylesheet_directory'); ?>/images/table_icon.png">食品加工会社</th><td>N2CE供給設備設計施工</td></tr>
         </table>
-        <div class="c-btn c-gas-btn"><a href="/sample/equipment/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">ガス設備及び各種工事へ戻る</div></a></div>
+        <div class="c-btn c-gas-btn"><a href="/equipment/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">ガス設備及び各種工事へ戻る</div></a></div>
       </section><? //.c-gas-wrap ?>
     </section><? //.c-gas ?>
   </div>

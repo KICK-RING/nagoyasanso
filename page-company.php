@@ -107,13 +107,13 @@
                   </dl>
                   <dl>
                       <dt>役員</dt>
-                      <dd>代表取締役社長　　　 飯田　哲郎<br>取　締　役　　 　　　服部　宗弘<br>取　締　役　　 　　　加田　裕<br>取　締　役　　 　　　飯田　恭子<br>監　査　役　　 　　　小栗　正次</dd>
+                      <dd>代表取締役社長　　　 飯田　哲郎<br>取　締　役　　 　　　服部　宗弘<br>取　締　役　　 　　　勝野　信弘<br>取　締　役　　 　　　飯田　恭子<br>監　査　役　　 　　　小栗　正次</dd>
                   </dl>
               </div>
               <div class="p-company-overview--wrap__inner">
                   <dl>
                       <dt>年商</dt>
-                      <dd>約68億 (2018年度)</dd>
+                      <dd>約68億円 (2018年度)</dd>
                   </dl>
                   <dl>
                       <dt>従業員数</dt>
@@ -194,8 +194,7 @@
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_border_right.png">
             </picture>
           </div>
-          <div class="p-company-history--conts--work">名古屋市港区に小碓工場を建設し
-酸素製造操業を開始</div>
+          <div class="p-company-history--conts--work">名古屋市港区に小碓工場を建設し酸素製造操業を開始</div>
         </div>
         <div class="p-company-history--conts__left">
           <div class="p-company-history--conts--time">昭和44年12月20日</div>
@@ -205,8 +204,7 @@
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_border_right.png">
             </picture>
           </div>
-          <div class="p-company-history--conts--work">三重県三雲町に三重工場を建設し
-酸素移充瓦斯操業を開始</div>
+          <div class="p-company-history--conts--work">三重県三雲町に三重工場を建設し酸素移充瓦斯操業を開始</div>
         </div>
         <div class="p-company-history--conts__right">
           <div class="p-company-history--conts--time">昭和47年7月25日</div>
@@ -216,8 +214,7 @@
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_border_right.png">
             </picture>
           </div>
-          <div class="p-company-history--conts--work">本社を名古屋市金山より
-港区小碓１丁目１２番地に移転</div>
+          <div class="p-company-history--conts--work">本社を名古屋市金山より港区小碓１丁目１２番地に移転</div>
         </div>
         <div class="p-company-history--conts__left">
           <div class="p-company-history--conts--time">昭和57年5月1日</div>
@@ -237,8 +234,7 @@
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_border_right.png">
             </picture>
           </div>
-          <div class="p-company-history--conts--work">三重県伊勢市に伊勢営業所を
-新築し移転</div>
+          <div class="p-company-history--conts--work">三重県伊勢市に伊勢営業所を新築し移転</div>
         </div>
         <div class="p-company-history--conts__left">
           <div class="p-company-history--conts--time">平成6年11月1日</div>
@@ -268,8 +264,7 @@
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_border_right.png">
             </picture>
           </div>
-          <div class="p-company-history--conts--work">本社及び小碓工場
-ＩＳＯ１４００１を認証取得</div>
+          <div class="p-company-history--conts--work">本社及び小碓工場ＩＳＯ１４００１を認証取得</div>
         </div>
         <div class="p-company-history--conts__right">
           <div class="p-company-history--conts--time">平成15年8月2日</div>
@@ -279,8 +274,7 @@
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_border_right.png">
             </picture>
           </div>
-          <div class="p-company-history--conts--work">大分県速見郡日出町に
-九州営業所を開設</div>
+          <div class="p-company-history--conts--work">大分県速見郡日出町に九州営業所を開設</div>
         </div>
         <div class="p-company-history--conts__left">
           <div class="p-company-history--conts--time">平成20年5月1日</div>
@@ -290,8 +284,7 @@
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_border_right.png">
             </picture>
           </div>
-          <div class="p-company-history--conts--work">三重県桑名市能部８１８番地に
-桑名営業所を移転</div>
+          <div class="p-company-history--conts--work">三重県桑名市能部８１８番地に桑名営業所を移転</div>
         </div>
         <div class="p-company-history--conts__right">
           <div class="p-company-history--conts--time">平成21年5月20日</div>
@@ -301,8 +294,7 @@
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/company_history_border_right.png">
             </picture>
           </div>
-          <div class="p-company-history--conts--work">本社及び小碓工場
-ＩＳＯ９００１を認証取得</div>
+          <div class="p-company-history--conts--work">本社及び小碓工場ＩＳＯ９００１を認証取得</div>
         </div>
         <div class="p-company-history--conts__left">
           <div class="p-company-history--conts--time">平成26年4月1日</div>
@@ -434,7 +426,7 @@
     <section class="p-company-download">
         <div class="l-container">
             <div class="p-company-download--txt">会社案内PDFダウンロード</div>
-            <div class="p-company-download--btn"><a href=""><div>PDF無料ダウンロード</div></a></div>
+            <div class="p-company-download--btn"><a href="<?php bloginfo('stylesheet_directory'); ?>/images/pdf/nagoyasanso.pdf" download="名古屋酸素株式会社_会社案内.pdf"><div>PDF無料ダウンロード</div></a></div>
         </div>
     </section>
 

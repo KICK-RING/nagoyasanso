@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">GAS EQUIPMENT &<br>CONSTRUCTION</div>
           <div class="c-page-ttl__sub"><h1>ガス設備及び各種工事</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>ガス設備及び各種工事</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>ガス設備及び各種工事</div>
       </div>
     </section>
 
@@ -49,7 +49,7 @@
               タンクローリー供給による液化ガス設備（CE供給設備）<br>
               ガス発生装置による供給設備（PSA）
             </div>
-            <div class="c-btn"><a href="/sample/facility/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
+            <div class="c-btn"><a href="/facility/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
           </div>
         </div>
         <div class="c-service-cont c-service-cont__even">
@@ -68,7 +68,7 @@
               特殊ガス配管工事（集中配管）<br>
               クリーンルーム設計施工（シリンダーキャビネットの製作）
             </div>
-            <div class="c-btn"><a href="/sample/spot/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
+            <div class="c-btn"><a href="/spot/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
           </div>
         </div>
         <div class="c-service-cont">
@@ -88,7 +88,7 @@
               1点ものの製作<br>
               メンテナンスサービス（保守点検）
             </div>
-            <div class="c-btn"><a href="/sample/construction/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
+            <div class="c-btn"><a href="/construction/" class="c-btn__hover"><div class="c-btn__text c-service-cont--item__btn">詳しくはこちら</div></a></div>
           </div>
         </div>
       </section>

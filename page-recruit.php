@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">RECRUIT</div>
           <div class="c-page-ttl__sub"><h1>採用情報</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>採用情報</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>採用情報</div>
       </div>
     </section>
 
@@ -57,7 +57,7 @@
       <div class="p-recruit-staff--wrap">
         <div class="p-recruit-staff--conts">
           <div class="p-recruit-staff--conts-img">
-            <a href="/sample/staff_01/">
+            <a href="/staff_01/">
               <picture>
                 <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/recruit_staff01.jpg">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/recruit_staff01.jpg">
@@ -66,11 +66,11 @@
           </div>
           <div class="p-recruit-staff--conts-belongs">営業部門</div>
           <div class="p-recruit-staff--conts-name">坪井 佳大</div>
-          <div class="p-recruit-staff--conts-more u-font-en"><a href="/sample/staff_01/">VIEW MORE<span class="u-arrow"></span></a></div>
+          <div class="p-recruit-staff--conts-more u-font-en"><a href="/staff_01/">VIEW MORE<span class="u-arrow"></span></a></div>
         </div>
         <div class="p-recruit-staff--conts">
           <div class="p-recruit-staff--conts-img">
-            <a href="/sample/staff_02/">
+            <a href="/staff_02/">
               <picture>
                 <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/recruit_staff02.jpg">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/recruit_staff02.jpg">
@@ -79,11 +79,11 @@
           </div>
           <div class="p-recruit-staff--conts-belongs">配送部門</div>
           <div class="p-recruit-staff--conts-name">古田 将人</div>
-          <div class="p-recruit-staff--conts-more u-font-en"><a href="/sample/staff_02/">VIEW MORE<span class="u-arrow"></span></a></div>
+          <div class="p-recruit-staff--conts-more u-font-en"><a href="/staff_02/">VIEW MORE<span class="u-arrow"></span></a></div>
         </div>
         <div class="p-recruit-staff--conts">
           <div class="p-recruit-staff--conts-img">
-            <a href="/sample/staff_03/">
+            <a href="/staff_03/">
               <picture>
                 <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/recruit_staff03.jpg">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/recruit_staff03.jpg">
@@ -92,11 +92,11 @@
           </div>
           <div class="p-recruit-staff--conts-belongs">購買部門</div>
           <div class="p-recruit-staff--conts-name">山口 雅代</div>
-          <div class="p-recruit-staff--conts-more u-font-en"><a href="/sample/staff_03/">VIEW MORE<span class="u-arrow"></span></a></div>
+          <div class="p-recruit-staff--conts-more u-font-en"><a href="/staff_03/">VIEW MORE<span class="u-arrow"></span></a></div>
         </div>
         <div class="p-recruit-staff--conts">
           <div class="p-recruit-staff--conts-img">
-            <a href="/sample/staff_04/">
+            <a href="/staff_04/">
               <picture>
                 <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/recruit_staff04.jpg">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/recruit_staff04.jpg">
@@ -105,7 +105,7 @@
           </div>
           <div class="p-recruit-staff--conts-belongs">製造部門</div>
           <div class="p-recruit-staff--conts-name">黒田 憲尚</div>
-          <div class="p-recruit-staff--conts-more u-font-en"><a href="/sample/staff_04/">VIEW MORE<span class="u-arrow"></span></a></div>
+          <div class="p-recruit-staff--conts-more u-font-en"><a href="/staff_04/">VIEW MORE<span class="u-arrow"></span></a></div>
         </div>
       </div>
     </section>

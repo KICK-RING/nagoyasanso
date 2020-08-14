@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">CONTACT</div>
           <div class="c-page-ttl__sub"><h1>お問い合わせ</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>お問い合わせ</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>お問い合わせ</div>
       </div>
     </section>
 
@@ -39,7 +39,7 @@
               ご入力いただいたメールアドレス宛てに、<br class="sp">お問い合わせ完了のメールを<br class="sp">送信いたしましたので、ご確認ください。<br>
               なお、一週間経っても連絡が無い場合、<br class="sp">お手数ですがお電話にてご連絡ください。
             </div>
-            <div class="c-btn p-contact_send-wrap--btn"><a href="/sample/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">トップへ戻る</div></a></div>
+            <div class="c-btn p-contact_send-wrap--btn"><a href="/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">トップへ戻る</div></a></div>
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@
           <div class="u-font-en c-page-ttl__main sp">WELDING<br>INDUSTRIAL<br>MACHINERY</div>
           <div class="c-page-ttl__sub"><h1>溶接・産業機器関連</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>溶接・産業機器関連</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>溶接・産業機器関連</div>
       </div>
     </section>
 
@@ -78,8 +78,11 @@
               溶接に関するお客様のあらゆるニーズにお応えいたします。<br>
               <br>
               【取扱商品】<br>
-              溶接機消耗品/軟鋼溶接材料/ステンレス溶接材料/圧力調整器/<br>
-              溶接器　切断器/ろう付け
+              溶接機消耗品/軟鋼溶接材料/ステンレス溶接材料/<br class="pc">
+              ろう付け溶接材料/圧力調整器/溶接器/切断器<br>
+              <br>
+              神戸製鋼製品はこちら<br>
+              <a href="https://www.kobelco.co.jp/welding/products/" target="_blank">https://www.kobelco.co.jp/welding/products/</a>
             </div>
           </div>
         </div>
@@ -121,7 +124,7 @@
               <br>
               【取扱商品】<br>
               砥石/ケミカル商品/チップドレッサー/電動工具/空圧工具/<br>
-              各種工具/各種センサー/測定工具/環境機器/安全 保護具
+              各種工具/各種センサー/測定工具/環境機器/安全保護具
             </div>
           </div>
         </div>

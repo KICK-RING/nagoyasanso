@@ -27,42 +27,42 @@
           </div>
           <div class="l-footer-conts--nav">
             <ul>
-              <li><a href="/sample/">ホーム</a></li>
-              <li><a href="/sample/company/">会社案内</a></li>
-              <li><a href="/sample/message/">社長挨拶</a></li>
-              <li><a href="/sample/environment/">環境への取り組み</a></li>
+              <li><a href="/">ホーム</a></li>
+              <li><a href="/company/">会社案内</a></li>
+              <li><a href="/message/">社長挨拶</a></li>
+              <li><a href="/environment/">環境への取り組み</a></li>
             </ul>
             <ul>
-              <li><a href="/sample/datasheet/">安心データシート</a></li>
-              <li><a href="/sample/#service">取扱い製品</a></li>
-              <li><a href="/sample/info/">お知らせ</a></li>
-              <li><a href="/sample/recruit/">採用情報</a></li>
+              <li><a href="/datasheet/">安全データシート</a></li>
+              <li><a href="/#service">取扱い商品</a></li>
+              <li><a href="/info/">お知らせ</a></li>
+              <li><a href="/recruit/">採用情報</a></li>
             </ul>
           </div>
           <div class="l-footer-conts--nav l-footer-conts--nav__sp">
             <ul>
-              <li><a href="/sample/indust_invest/">産業用ガス<br>分析・研究用ガス</a></li>
-              <li class="l-footer-conts--nav__child"><a href="/sample/indust/">- 産業用ガス</a></li>
-              <li class="l-footer-conts--nav__child"><a href="/sample/invest/">- 分析・研究用ガス</a></li>
-              <li><a href="/sample/medical/">医療用ガス</a></li>
-              <li class="l-footer-conts--nav__child"><a href="/sample/medical_detail/">- 医療用ガス</a></li>
+              <li><a href="/indust_invest/">産業用ガス<br>分析・研究用ガス</a></li>
+              <li class="l-footer-conts--nav__child"><a href="/indust/">- 産業用ガス</a></li>
+              <li class="l-footer-conts--nav__child"><a href="/invest/">- 分析・研究用ガス</a></li>
+              <li><a href="/medical/">医療用ガス</a></li>
+              <li class="l-footer-conts--nav__child"><a href="/medical_detail/">- 医療用ガス</a></li>
             </ul>
           </div>
           <div class="l-footer-conts--nav l-footer-conts--nav__last">
             <ul>
-              <li><a href="/sample/welding/">溶接・産業機器関連</a></li>
-              <li><a href="/sample/equipment/">ガス設備及び各種工事</a></li>
-              <li class="l-footer-conts--nav__child"><a href="/sample/facility/">- ガス設備</a></li>
-              <li class="l-footer-conts--nav__child"><a href="/sample/spot/">- スポット供給及び特殊ガス配管工事</a></li>
-              <li class="l-footer-conts--nav__child"><a href="/sample/construction/">- 各種工事</a></li>
+              <li><a href="/welding/">溶接・産業機器関連</a></li>
+              <li><a href="/equipment/">ガス設備及び各種工事</a></li>
+              <li class="l-footer-conts--nav__child"><a href="/facility/">- ガス設備</a></li>
+              <li class="l-footer-conts--nav__child"><a href="/spot/">- スポット供給及び特殊ガス配管工事</a></li>
+              <li class="l-footer-conts--nav__child"><a href="/construction/">- 各種工事</a></li>
             </ul>
           </div>
         </div><? //.l-footer-conts ?>
 
         <div class="l-footer-copyright">
           <div class="l-footer-copyright--wrap">
-            <div class="l-footer-copyright--contact"><a href="/sample/contact/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/footer_mail_icon.png"><span class="l-footer-copyright--wrap__text">Contact</span></a></div>
-            <div class="l-footer-copyright--privacy"><a href="/sample/privacy_policy/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/footer_privacy_icon.png"><span class="l-footer-copyright--wrap__text">Privacy Policy</span></a></div>
+            <div class="l-footer-copyright--contact"><a href="/contact/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/footer_mail_icon.png"><span class="l-footer-copyright--wrap__text">Contact</span></a></div>
+            <div class="l-footer-copyright--privacy"><a href="/privacy_policy/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/footer_privacy_icon.png"><span class="l-footer-copyright--wrap__text">Privacy Policy</span></a></div>
             <div class="l-footer-copyright--copy">© 2019 Nagoya Sanso CO., LTD</div>
           </div>
         </div>
@@ -79,29 +79,29 @@
       <span></span>
     </div>
     <nav>
-      <div class="nav-logo"><a href="/sample/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/sp/logo.png" alt="NAGOYA SANSO"></a></div>
+      <div class="nav-logo"><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/sp/logo.png" alt="NAGOYA SANSO"></a></div>
       <ul>
-        <a href="/sample/company/"><li>会社案内</li></a>
-        <a href="/sample/message/"><li>社長挨拶</li></a>
-        <a href="/sample/environment/"><li>環境への取り組み</li></a>
-        <a href="/sample/datasheet/"><li>安心データシート</li></a>
-        <li class="nav-slide">取扱い製品<span></span></li>
+        <a href="/company/"><li>会社案内</li></a>
+        <a href="/message/"><li>社長挨拶</li></a>
+        <a href="/environment/"><li>環境への取り組み</li></a>
+        <a href="/datasheet/"><li>安全データシート</li></a>
+        <li class="nav-slide">取扱い商品<span></span></li>
         <ul class="nav-slide--parent">
-          <a href="/sample/indust_invest/"><li>産業用ガス/分析・研究用ガス</li></a>
-          <a href="/sample/indust/"><li class="nav-slide--child">産業用ガス</li></a>
-          <a href="/sample/invest/"><li class="nav-slide--child">分析・研究用ガス</li></a>
-          <a href="/sample/medical/"><li>医療用ガス</li></a>
-          <a href="/sample/medical_detail/"><li class="nav-slide--child">医療用ガス</li></a>
-          <a href="/sample/welding/"><li>溶接・産業機器関連</li></a>
-          <a href="/sample/equipment/"><li>ガス設備及び各種工事</li></a>
-          <a href="/sample/facility/"><li class="nav-slide--child">ガス設備</li></a>
-          <a href="/sample/spot/"><li class="nav-slide--child">スポット供給及び特殊ガス配管工事</li></a>
-          <a href="/sample/construction/"><li class="nav-slide--child">各種工事</li></a>
+          <a href="/indust_invest/"><li>産業用ガス/分析・研究用ガス</li></a>
+          <a href="/indust/"><li class="nav-slide--child">産業用ガス</li></a>
+          <a href="/invest/"><li class="nav-slide--child">分析・研究用ガス</li></a>
+          <a href="/medical/"><li>医療用ガス</li></a>
+          <a href="/medical_detail/"><li class="nav-slide--child">医療用ガス</li></a>
+          <a href="/welding/"><li>溶接・産業機器関連</li></a>
+          <a href="/equipment/"><li>ガス設備及び各種工事</li></a>
+          <a href="/facility/"><li class="nav-slide--child">ガス設備</li></a>
+          <a href="/spot/"><li class="nav-slide--child">スポット供給及び特殊ガス配管工事</li></a>
+          <a href="/construction/"><li class="nav-slide--child">各種工事</li></a>
         </ul>
-        <a href="/sample/info/"><li>お知らせ</li></a>
-        <a href="/sample/recruit/"><li>採用情報</li></a>
-        <a href="/sample/contact/"><li class="nav-contact"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mail_icon_white.png" class="nav-contact--img">お問い合わせ</li></a>
-        <a href="/sample/privacy_policy/"><li><img src="<?php bloginfo('stylesheet_directory'); ?>/images/footer_privacy_icon.png" class="nav-privacy--img">Privacy Policy</li></a>
+        <a href="/info/"><li>お知らせ</li></a>
+        <a href="/recruit/"><li>採用情報</li></a>
+        <a href="/contact/"><li class="nav-contact"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mail_icon_white.png" class="nav-contact--img">お問い合わせ</li></a>
+        <a href="/privacy_policy/"><li><img src="<?php bloginfo('stylesheet_directory'); ?>/images/footer_privacy_icon.png" class="nav-privacy--img">Privacy Policy</li></a>
       </ul>
     </nav>
     <?php wp_footer(); ?>

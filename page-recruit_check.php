@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">RECRUIT</div>
           <div class="c-page-ttl__sub"><h1>募集要項</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>お問い合わせ</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span>お問い合わせ</div>
       </div>
     </section>
 
@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="h-adr">
-            <?php echo do_shortcode('[mwform_formkey key="69"]'); ?><? // 69 58 //?>
+            <?php echo do_shortcode('[mwform_formkey key="72"]'); ?><? // 72 69(test) 58(local) //?>
           </div>
         </div>
       </div>

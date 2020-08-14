@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">VARIOUS WORKS</div>
           <div class="c-page-ttl__sub"><h1>各種工事</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/equipment/">ガス設備及び各種工事</a><br class="sp"><span class="c-page-breadcrumbs__arrow">></span>各種工事</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/equipment/">ガス設備及び各種工事</a><br class="sp"><span class="c-page-breadcrumbs__arrow">></span>各種工事</div>
       </div>
     </section>
 
@@ -25,8 +25,7 @@
           <div class="c-gas-conts--product">
             <div class="c-gas-conts--product__ttl">ホイスト設備工事（各種クレーンの製作）</div>
             <div class="c-gas-conts--product__desc">
-              現在、ホイストなどクレーンシステムの技術は、単に荷吊する作業から、安全性を最優先に考え、作業効率の高いクレーンへと進化しております。
-              ヤード設計をはじめ、軽量クレーンシステムから 3 トン以上のホイストすべてを取扱い、設計→申請→施工→落成検査まで責任を持って施工いたします。これまで揚程の確保が困難で諦めていた作業場やクリーンルーム内への設置など様々なご要望に高い技術力でお応えいたします。また、メンテナンスに至るまで充実した体制を整えております。
+              現在、ホイストなどクレーンシステムの技術は、単に荷吊する作業から、安全性を最優先に考え、作業効率の高いクレーンへと進化しております。ヤード設計をはじめ、軽量クレーンシステムから 3 トン以上のホイストすべてを取扱い、設計→申請→施工→落成検査まで責任を持って施工いたします。これまで揚程の確保が困難で諦めていた作業場やクリーンルーム内への設置など様々なご要望に高い技術力でお応えいたします。また、メンテナンスに至るまで充実した体制を整えております。
             </div>
           </div>
         </div>
@@ -48,8 +47,7 @@
           <div class="c-gas-conts--product">
             <div class="c-gas-conts--product__ttl">１点ものの製作</div>
             <div class="c-gas-conts--product__desc">
-              小さなサイズの部品１点から大型設備の設計施工まで、<br>
-              お客様と打合せしながら製作いたします。<br>
+              小さなサイズの部品１点から大型設備の設計施工まで、<br class="pc">お客様と打合せしながら製作いたします。<br>
               また、他社で製作したものの修理改造なども承ります。
             </div>
           </div>
@@ -76,7 +74,7 @@
           <tr><th><img src="<?php bloginfo('stylesheet_directory'); ?>/images/table_icon.png">大手鉄骨工場</th><td>サブマージ溶接機導入工事</td></tr>
           <tr><th><img src="<?php bloginfo('stylesheet_directory'); ?>/images/table_icon.png">大手鉄工所</th><td>吊り金具の保守点検</td></tr>
         </table>
-        <div class="c-btn c-gas-btn"><a href="/sample/equipment/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">ガス設備及び各種工事へ戻る</div></a></div>
+        <div class="c-btn c-gas-btn"><a href="/equipment/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">ガス設備及び各種工事へ戻る</div></a></div>
       </section><? //.c-gas-wrap ?>
     </section><? //.c-gas ?>
   </div>

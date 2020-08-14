@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">INDUSTRIAL<br>GASES</div>
           <div class="c-page-ttl__sub"><h1>産業用ガス</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/indust_invest/">産業用ガス/分析・研究用ガス</a><br class="sp"><span class="c-page-breadcrumbs__arrow">></span>産業用ガス</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/indust_invest/">産業用ガス/分析・研究用ガス</a><br class="sp"><span class="c-page-breadcrumbs__arrow">></span>産業用ガス</div>
       </div>
     </section>
 
@@ -52,7 +52,7 @@
             <div class="c-gas-conts--product__desc">
               希ガスに分類される他の物質と全く反応しない特性を活かし、アーク溶接時のシールドガスとして使用され、酸化を防ぐとともに溶接面を美しく保つ役割を果たしています。<br>
               またステンレスなどの特殊鋼の精錬や、チタンやシリコンの製錬時の雰囲気ガス（特定の化学反応が空気の影響を受けてしまうときに空気を遮断するために置き換えられるガスのこと）として使用されます。<br>
-              そのほか、電球やペアガラスにも断熱材としても使用されています。
+              そのほか、断熱材として電球やペアガラスなどにも使用されています。
             </div>
           </div>
         </div>
@@ -87,8 +87,7 @@
           <div class="c-gas-conts--product">
             <div class="c-gas-conts--product__ttl">水素</div>
             <div class="c-gas-conts--product__desc">
-              製造分野では石油精製やアンモニアなどの化学原料からガラスなどの工業製品、さらには食料品に至るまで様々に使用されています。また、現在でもスペースシャトルや水素自動車の燃料として使用されていますが、
-              燃焼時に水しか発生しない次世代のクリーンエネルギーとして研究開発が進められており、今後はさらに需要が高まっていくと考えられています。
+              製造分野では石油精製やアンモニアなどの化学原料からガラスなどの工業製品、さらには食料品に至るまで様々に使用されています。また、現在でもスペースシャトルや水素自動車の燃料として使用されていますが、燃焼時に水しか発生しない次世代のクリーンエネルギーとして研究開発が進められており、今後はさらに需要が高まっていくと考えられています。
             </div>
           </div>
         </div>
@@ -159,8 +158,7 @@
           <div class="c-gas-conts--product">
             <div class="c-gas-conts--product__ttl">アルゴン＋酸素</div>
             <div class="c-gas-conts--product__desc">
-              金属の溶接時に空気の接触による化学反応を防ぐ為のシールド用として利用されます。溶接工法の一つのＭＩＧ（ミグ）溶接に用いられるガスになります。アークを安定させ、溶接時に出てきますスパッタを低減し溶接効率向上を目的として、
-              主な用途としましてステンレス、アルミの溶接に使われております。
+              金属の溶接時に空気の接触による化学反応を防ぐ為のシールド用として利用されます。溶接工法の一つのＭＩＧ（ミグ）溶接に用いられるガスになります。アークを安定させ、溶接時に出てきますスパッタを低減し溶接効率向上を目的として、主な用途としましてステンレス、アルミの溶接に使われております。
             </div>
           </div>
         </div>
@@ -190,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="c-btn c-gas-btn"><a href="/sample/indust_invest/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">産業用ガス/分析・研究用ガスへ戻る</div></a></div>
+        <div class="c-btn c-gas-btn"><a href="/indust_invest/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">産業用ガス/分析・研究用ガスへ戻る</div></a></div>
       </section><? //.c-gas-wrap ?>
     </section><? //.c-gas ?>
   </div>

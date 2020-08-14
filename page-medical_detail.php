@@ -10,7 +10,7 @@
           <div class="u-font-en c-page-ttl__main">MEDICAL</div>
           <div class="c-page-ttl__sub"><h1>医療用ガス</h1></div>
         </div>
-        <div class="c-page-breadcrumbs"><a href="/sample/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/sample/medical/">医療用ガス</a><span class="c-page-breadcrumbs__arrow">></span>医療用ガス</div>
+        <div class="c-page-breadcrumbs"><a href="/">NAGOYA SANSO HOME</a><span class="c-page-breadcrumbs__arrow">></span><a href="/medical/">医療用ガス</a><span class="c-page-breadcrumbs__arrow">></span>医療用ガス</div>
       </div>
     </section>
 
@@ -64,7 +64,7 @@
             </div>
           </div>
         </div>
-        <div class="c-btn c-gas-btn"><a href="/sample/indust_invest/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">医療用ガスへ戻る</div></a></div>
+        <div class="c-btn c-gas-btn"><a href="/medical/" class="c-btn__hover"><div class="c-btn__text c-gas-btn__text">医療用ガスへ戻る</div></a></div>
       </section><? //.c-gas-wrap ?>
     </section><? //.c-gas ?>
   </div>

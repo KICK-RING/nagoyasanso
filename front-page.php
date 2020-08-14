@@ -89,13 +89,10 @@
       お取引先様に恵まれ、おかげ様でガス充填において地区トップクラスに成長できました。<br>
       これは皆様からのご愛顧があってこその賜物でございます。<br>
       今度は、私たちの番です。<br>
-      「いつもここにいる、いつもここにある」をモットーに、<br class="pc">
-      お客様の「今」にお応えできる品質、サービスを追求し、<br class="pc">
-      「今」以上の満足のために常に前進し続けます。<br>
-      この激動の時代だからこそ、その時の一瞬を常に全力で、<br class="pc">
-      そして、ともに次の100年ヘ
+      「いつもここにいる、いつもここにある」をモットーに、<br class="pc">お客様の「今」にお応えできる品質、サービスを追求し、<br class="pc">「今」以上の満足のために常に前進し続けます。<br>
+      この激動の時代だからこそ、その時の一瞬を常に全力で、<br class="pc">そして、ともに次の100年ヘ
     </div>
-    <div class="c-btn p-top-overview--btn"><a href="#" class="c-btn__hover"><div class="c-btn__text">会社案内を詳しく見る</div></a></div>
+    <div class="c-btn p-top-overview--btn"><a href="/company/" class="c-btn__hover"><div class="c-btn__text">会社案内を詳しく見る</div></a></div>
   </section>
 
   <section class="p-top-service" id="service">
@@ -103,54 +100,53 @@
     <div class="u-center"><div class="p-top-service--ttl u-font-en">SERVICES</div></div>
     <div class="p-top-service--subttl">取扱い商品</div>
     <div class="p-top-service--copy">
-      酸素や炭酸ガス・高圧ガスなどの製造・販売から工場などで使われる溶接・溶断機械や材料類、<br class="pc">
-      産業ロボットなどの販売も展開しています。<br>
+      酸素や炭酸ガス・高圧ガスなどの製造・販売から工場などで使われる溶接・溶断機械や材料類、<br class="pc">産業ロボットなどの販売も展開しています。<br>
       その他、医薬品・医薬部外品や毒劇物、工業用薬品類の販売も展開しています。
     </div>
     <div class="p-top-service--wrap">
       <div class="p-top-service--cont">
         <div class="p-top-service--cont__img">
-          <a href="/sample/indust_invest/">
+          <a href="/indust_invest/">
             <picture>
               <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service01.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service01.png">
             </picture>
           </a>
         </div>
-        <div class="p-top-service--cont__text">産業用ガス/ 分析・研究用ガス</div>
+        <div class="p-top-service--cont__text"><a href="/indust_invest/">産業用ガス/ 分析・研究用ガス<span class="u-arrow u-arrow__white"></span></a></div>
       </div>
       <div class="p-top-service--cont">
         <div class="p-top-service--cont__img">
-          <a href="/sample/medical/">
+          <a href="/medical/">
             <picture>
               <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service02.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service02.png">
             </picture>
           </a>
         </div>
-        <div class="p-top-service--cont__text">医療用ガス</div>
+        <div class="p-top-service--cont__text"><a href="/medical/">医療用ガス<span class="u-arrow u-arrow__white"></span></a></div>
       </div>
       <div class="p-top-service--cont">
         <div class="p-top-service--cont__img">
-          <a href="/sample/welding/">
+          <a href="/welding/">
             <picture>
               <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service03.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service03.png">
             </picture>
           </a>
         </div>
-        <div class="p-top-service--cont__text">溶接・産業機器関連</div>
+        <div class="p-top-service--cont__text"><a href="/welding/">溶接・産業機器関連<span class="u-arrow u-arrow__white"></span></a></div>
       </div>
       <div class="p-top-service--cont">
         <div class="p-top-service--cont__img">
-          <a href="/sample/equipment/">
+          <a href="/equipment/">
             <picture>
               <source media="(max-width: 767px)" srcset="<?php bloginfo('stylesheet_directory'); ?>/images/sp/top_service04.png">
               <img src="<?php bloginfo('stylesheet_directory'); ?>/images/top_service04.png">
             </picture>
           </a>
         </div>
-        <div class="p-top-service--cont__text">ガス設備及び各種工事</div>
+        <div class="p-top-service--cont__text"><a href="/equipment/">ガス設備及び各種工事<span class="u-arrow u-arrow__white"></span></a></div>
       </div>
     </div>
   </section>
@@ -196,7 +192,7 @@
             endif;
           ?>
         </div>
-        <div class="c-btn p-top-topics--btn"><a href="/sample/info/" class="c-btn__hover"><div class="c-btn__text p-top-topics--btn__text">お知らせ一覧</div></a></div>
+        <div class="c-btn p-top-topics--btn"><a href="/info/" class="c-btn__hover"><div class="c-btn__text p-top-topics--btn__text">お知らせ一覧</div></a></div>
       </div>
     </div>
   </section>
@@ -214,13 +210,11 @@
         <div class="u-font-en p-top-recruit--ttl">RECRUIT</div>
         <div class="p-top-recruit--subttl">採用について</div>
         <div class="p-top-recruit--desc">
-          POWER OF HISTORY - 100年以上ガス、溶材をお届けしてきた<br class="pc">
-          私たちと一緒に次の100年を創造していきませんか。<br>
+          POWER OF HISTORY - 100年以上ガス、溶材をお届けしてきた<br class="pc">私たちと一緒に次の100年を創造していきませんか。<br>
           転職経験のある社員も多く、経験は問いません。<br>
-          中途入社のハンディはなく、実務を早く覚えていただけるよう<br class="pc">
-          に現場・会社でバックアップをしていきます。
+          中途入社のハンディはなく、実務を早く覚えていただけるよう<br class="pc">に現場・会社でバックアップをしていきます。
         </div>
-        <div class="c-btn p-top-recruit--btn"><a href="/sample/recruit/" class="c-btn__hover"><div class="c-btn__text">採用情報を詳しく見る</div></a></div>
+        <div class="c-btn p-top-recruit--btn"><a href="/recruit/" class="c-btn__hover"><div class="c-btn__text">採用情報を詳しく見る</div></a></div>
       </div>
     </div>
   </section>
